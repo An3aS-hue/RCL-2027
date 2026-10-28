@@ -1,0 +1,1597 @@
+<!DOCTYPE html>
+<!-- Kathu RCL 2027 Election Portal: page version 6 (bilingual; runs in Apps Script or on GitHub Pages) -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Kathu Primary School RCL 2027 Election</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --side:#16245C;
+  --navy:#1E2C6E;
+  --blue:#2F3C9E;
+  --gold:#F6C20F;
+  --gold-soft:#FFF5CF;
+  --red:#E01B22;
+  --red-dark:#B8121A;
+  --bg:#E8EBF2;
+  --card:#FFFFFF;
+  --ink:#101A40;
+  --muted:#5A6382;
+  --line:#DCE1EC;
+  --ok:#17845A; --ok-soft:#E3F5EC;
+  --bad:#C2303B; --bad-soft:#FCE8EA;
+  --head:'Montserrat', 'Segoe UI', system-ui, sans-serif;
+  --body:'Atkinson Hyperlegible', 'Segoe UI', system-ui, sans-serif;
+  --shadow:0 1px 2px rgba(16,26,64,.06), 0 6px 18px -8px rgba(16,26,64,.22);
+  --sidew:284px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:6px}
+h1,h2,h3,h4{font-family:var(--head);line-height:1.15;margin:0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+[hidden]{display:none !important}
+
+/* ── Shell: sidebar + content ─────────────────────────── */
+.side{position:fixed;inset:0 auto 0 0;width:var(--sidew);background:var(--side);color:#fff;display:flex;flex-direction:column;z-index:40}
+.brand{display:flex;align-items:center;gap:14px;padding:26px 22px 30px}
+.brand .disc{width:84px;height:84px;border-radius:50%;background:#fff;display:grid;place-items:center;flex:0 0 auto;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+.brand .disc img{width:58px;height:66px;object-fit:contain}
+.brand b{display:block;font-family:var(--head);font-weight:800;font-size:25px;color:var(--gold);line-height:1;letter-spacing:.02em}
+.brand span{display:block;font-family:var(--head);font-weight:800;font-size:17px;line-height:1.1;margin-top:3px}
+.nav{display:flex;flex-direction:column;gap:2px}
+.nav button{display:flex;align-items:center;gap:13px;width:100%;border:0;background:none;color:#fff;text-align:left;padding:15px 22px;font-size:16px;font-weight:400;border-right:5px solid transparent;transition:background .15s}
+.nav button:hover{background:rgba(255,255,255,.07)}
+.nav button svg{width:24px;height:24px;color:var(--gold);flex:0 0 auto}
+.nav button .lk{width:14px;height:14px;margin-left:auto;color:#8F99C7}
+.nav button[aria-current="page"]{background:var(--gold);color:var(--ink);font-weight:700;border-right-color:var(--red)}
+.nav button[aria-current="page"] svg{color:var(--ink)}
+.side-foot{margin-top:auto;padding:20px 22px 24px;border-top:1px solid rgba(255,255,255,.1)}
+.side-foot .turn{display:flex;align-items:center;gap:12px;font-size:14px;color:#C5CCEA}
+.side-foot .turn b{display:block;color:#fff;font-family:var(--head);font-size:20px}
+.side-foot svg.ring{width:48px;height:48px;transform:rotate(-90deg);flex:0 0 auto}
+.side-foot circle{fill:none;stroke-width:5}
+.lockbtn{margin-top:14px;width:100%;border:1px solid rgba(255,255,255,.3);background:none;color:#fff;border-radius:10px;padding:8px 12px;font-size:14px;font-weight:700}
+
+.content{margin-left:var(--sidew);min-height:100vh}
+.topbar{position:sticky;top:0;z-index:30;background:#fff;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px 16px;padding:14px 32px;min-height:88px;box-shadow:0 2px 10px rgba(16,26,64,.08)}
+.topbar h1{font-weight:800;font-size:clamp(18px,1.75vw,30px);color:var(--ink);letter-spacing:.01em;white-space:nowrap}
+.who{display:flex;align-items:center;gap:14px;font-size:17px;white-space:nowrap}
+.top-right{display:flex;align-items:center;gap:22px}
+.lang{display:flex;background:#EEF1F8;border-radius:99px;padding:4px;gap:2px}
+.lang button{border:0;background:none;border-radius:99px;padding:7px 14px;font-weight:700;font-size:14px;color:var(--muted)}
+.lang button:hover{color:var(--ink)}
+.lang button[aria-pressed="true"]{background:var(--side);color:#fff}
+.who b{font-weight:700}
+.avatar{width:54px;height:54px;border-radius:50%;overflow:hidden;background:var(--blue);color:#fff;display:grid;place-items:center;font-family:var(--head);font-weight:800;font-size:19px;box-shadow:0 0 0 3px #fff,0 0 0 5px var(--gold);flex:0 0 auto}
+.avatar img{width:100%;height:100%;object-fit:cover;object-position:top}
+.avatar.off{background:#C9CFDF;color:var(--side);box-shadow:none}
+main{padding:28px 32px 120px;max-width:1320px}
+
+/* ── Buttons & inputs ─────────────────────────── */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:10px;padding:13px 22px;font-weight:700;font-size:16px;background:var(--navy);color:#fff;transition:transform .12s, filter .15s}
+.btn:hover{filter:brightness(1.12)}
+.btn:active{transform:translateY(1px)}
+.btn[disabled]{opacity:.45;cursor:not-allowed;filter:none}
+.btn.gold{background:var(--gold);color:var(--ink)}
+.btn.red{background:var(--red);font-family:var(--head);font-weight:800;letter-spacing:.02em;box-shadow:0 0 0 3px var(--gold), 0 4px 14px rgba(224,27,34,.35)}
+.btn.ghost{background:#fff;color:var(--navy);box-shadow:inset 0 0 0 2px var(--line)}
+.btn.ghost:hover{box-shadow:inset 0 0 0 2px var(--navy);filter:none}
+.btn.danger{background:var(--bad)}
+.btn.sm{padding:8px 14px;font-size:14px}
+.btn.lg{padding:16px 28px;font-size:17px}
+.btn.block{width:100%}
+.field{width:100%;border:2px solid var(--line);border-radius:10px;padding:11px 14px;background:#fff;outline:none}
+.field:focus{border-color:var(--navy)}
+.muted{color:var(--muted)}
+.card{background:var(--card);border-radius:14px;box-shadow:var(--shadow)}
+.sec-title{font-family:var(--head);font-weight:800;font-size:clamp(19px,2vw,24px);text-transform:uppercase;letter-spacing:.01em;margin:28px 0 6px}
+.sec-sub{color:var(--muted);margin:0 0 16px}
+
+/* ── Vote layout ─────────────────────────── */
+.vote{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:28px;align-items:start}
+.status{position:sticky;top:112px;display:flex;flex-direction:column;gap:18px}
+.status > h2{font-weight:800;font-size:26px;margin-bottom:-2px}
+.status .card{padding:20px}
+.status h3{font-size:19px;font-weight:800;margin-bottom:14px}
+
+/* Hero banner */
+.hero{position:relative;overflow:hidden;display:flex;align-items:center;gap:30px;padding:26px 36px;min-height:190px}
+.hero img{width:124px;height:142px;object-fit:contain;flex:0 0 auto;position:relative;z-index:1}
+.hero h2{position:relative;z-index:1;font-weight:800;font-size:clamp(24px,2.5vw,38px);line-height:1.12;color:var(--ink);max-width:16em}
+.hero p{position:relative;z-index:1;margin:8px 0 0;color:var(--muted);font-size:17px;max-width:40ch}
+.hero .txt{position:relative;z-index:1;margin-right:min(25%,220px)}
+.hero .deco{position:absolute;right:0;top:0;bottom:0;width:min(34%,300px);pointer-events:none}
+.hero.slim{min-height:0;padding:18px 28px}
+.hero.slim img{width:78px;height:90px}
+.hero.slim h2{font-size:clamp(22px,2.6vw,30px)}
+
+/* Alert bar */
+.alert{display:flex;align-items:center;gap:12px;margin-top:18px;padding:14px 22px;border-radius:10px;background:var(--red);color:#fff;font-size:18px;box-shadow:0 4px 14px -4px rgba(224,27,34,.5)}
+.alert svg{width:24px;height:24px;flex:0 0 auto}
+.alert b{font-family:var(--head);font-weight:800;text-transform:uppercase;letter-spacing:.01em}
+.alert.closed{background:#5A6382;box-shadow:none}
+
+/* Progress steps */
+.steps{list-style:none;margin:0;padding:0;position:relative}
+.steps:before{content:"";position:absolute;left:11px;top:22px;bottom:22px;width:3px;background:#C9CFDF;border-radius:2px}
+.steps li{display:flex;align-items:center;gap:14px;position:relative}
+.steps li + li{margin-top:12px}
+.steps .dot{width:25px;height:25px;border-radius:50%;background:#C9CFDF;flex:0 0 auto;display:grid;place-items:center;color:#fff;box-shadow:0 0 0 4px #fff}
+.steps .dot svg{width:14px;height:14px}
+.steps .lbl{flex:1;border-radius:10px;padding:10px 14px;font-size:15px;line-height:1.3;background:#D5D9E4;color:#8A91AA;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.steps .lbl svg{width:18px;height:18px;flex:0 0 auto}
+.steps li.done .dot{background:var(--side)}
+.steps li.done .lbl{background:var(--side);color:#fff}
+.steps li.now .dot{background:#fff;box-shadow:0 0 0 4px #fff, inset 0 0 0 3px var(--side)}
+.steps li.now .dot:after{content:"";width:9px;height:9px;border-radius:50%;background:var(--side)}
+.steps li.now .lbl{background:var(--navy);color:#fff}
+
+/* Status cards */
+.bignum{font-family:var(--head);font-weight:800;font-size:34px;line-height:1;color:#7A1020}
+.bignum small{font-size:18px;color:var(--muted);font-weight:700}
+.meter{height:8px;border-radius:99px;background:#E7EBF4;overflow:hidden;margin-top:12px}
+.meter i{display:block;height:100%;background:var(--navy);border-radius:99px;transition:width .4s}
+.chosen{display:flex;flex-wrap:wrap;gap:5px;margin-top:14px}
+.chosen button{width:30px;height:30px;border-radius:50%;border:2px solid var(--gold);padding:0;overflow:hidden;background:var(--blue);position:relative}
+.chosen button img,.chosen button .ini{width:100%;height:100%;object-fit:cover;object-position:top;font-size:12px}
+.chosen button:hover:after{content:"×";position:absolute;inset:0;background:rgba(224,27,34,.85);color:#fff;display:grid;place-items:center;font-weight:700;font-size:18px}
+.chosen .empty-slot{width:30px;height:30px;border-radius:50%;border:2px dashed #C9CFDF}
+.help a,.help button.link{display:block;color:var(--ink);text-decoration:underline;font-size:16px;margin:6px 0;background:none;border:0;padding:0;text-align:left}
+.help ul{margin:0;padding-left:18px;color:var(--muted);font-size:15px}
+.help li + li{margin-top:4px}
+
+/* Code entry */
+.codecard{padding:30px 32px;margin-top:18px}
+.codecard label{display:block;font-weight:700;font-size:18px;margin-bottom:14px}
+.codebox{display:flex;gap:12px}
+.codebox input{width:clamp(50px,9vw,68px);height:clamp(62px,11vw,80px);text-align:center;font-family:var(--head);font-size:clamp(28px,5vw,38px);font-weight:800;border:2px solid var(--line);border-radius:12px;background:#F4F6FB;text-transform:uppercase;outline:none;caret-color:var(--navy);transition:border-color .15s,background .15s}
+.codebox input:focus{border-color:var(--navy);background:#fff}
+.codebox input.filled{background:#fff;border-color:#AEB8DA}
+.codebox.shake{animation:shake .4s}
+@keyframes shake{20%,60%{transform:translateX(-7px)}40%,80%{transform:translateX(7px)}}
+.coderow{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.msg{margin-top:16px;padding:12px 14px;border-radius:10px;font-weight:700;font-size:15px;display:flex;gap:10px;align-items:flex-start}
+.msg.bad{background:var(--bad-soft);color:var(--bad)}
+.msg.info{background:#EAF0FF;color:var(--navy)}
+
+/* Candidate filters & cards */
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:6px}
+.search{position:relative;flex:1 1 220px;max-width:320px}
+.search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--muted)}
+.search input{padding-left:40px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:2px solid var(--line);background:#fff;border-radius:99px;padding:6px 13px;font-weight:700;font-size:14px;color:var(--muted)}
+.chip:hover{border-color:#AEB8DA;color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--side);border-color:var(--side);color:#fff}
+.chip .n{font-weight:400;opacity:.75;margin-left:4px}
+.group-h{display:flex;align-items:baseline;gap:10px;margin:26px 0 12px}
+.group-h h4{font-size:19px;font-weight:800}
+.group-h span{color:var(--muted);font-size:14px}
+.cands{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px}
+.cand{background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:20px 16px 18px;text-align:center;display:flex;flex-direction:column;align-items:center;transition:box-shadow .15s,transform .15s;position:relative}
+.cand .ph{width:128px;height:128px;border-radius:50%;overflow:hidden;background:radial-gradient(circle at 50% 35%,#9DB2D6,#5F76A8);display:grid;place-items:center}
+.cand .ph img{width:100%;height:100%;object-fit:cover;object-position:top}
+.ini{width:100%;height:100%;display:grid;place-items:center;font-family:var(--head);font-weight:800;font-size:38px;color:#fff}
+.cand h4{font-size:19px;font-weight:700;margin-top:14px;line-height:1.2}
+.cand .cl{color:var(--muted);font-size:15px;margin-top:4px}
+.cand .btn{margin-top:16px;width:100%;font-size:14px;padding:12px 10px;text-transform:uppercase}
+.cand.on{box-shadow:0 0 0 3px var(--gold), var(--shadow);transform:translateY(-2px)}
+.cand.on .btn{background:var(--side);box-shadow:0 0 0 3px var(--gold)}
+.cand .tick{position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:50%;background:var(--gold);color:var(--ink);display:grid;place-items:center;transform:scale(0);transition:transform .22s cubic-bezier(.2,1.6,.4,1)}
+.cand .tick svg{width:20px;height:20px}
+.cand.on .tick{transform:scale(1)}
+.cand.full:not(.on){opacity:.5}
+.cands.small{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.cands.small .cand{padding:16px 12px}
+.cands.small .ph{width:92px;height:92px}
+.cands.small h4{font-size:16px}
+.empty{padding:50px 20px;text-align:center;color:var(--muted)}
+.note{background:var(--gold-soft);border-radius:10px;padding:12px 16px;margin:0 0 16px;font-size:16px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+
+/* Mobile bottom bar */
+.mbar{display:none}
+
+/* Done */
+.thanks{padding:40px 30px 44px;text-align:center;margin-top:18px}
+.thanks h2{font-weight:800;font-size:clamp(30px,4vw,44px);margin-top:22px;text-transform:uppercase}
+.thanks p{font-size:18px;color:var(--muted);margin:10px auto 0;max-width:42ch}
+.box{width:190px;height:170px;margin:0 auto;position:relative;overflow:hidden}
+.box .paper{position:absolute;left:50%;top:0;width:96px;height:120px;margin-left:-48px;background:#fff;border-radius:8px;box-shadow:0 0 0 2px var(--line),0 6px 14px rgba(16,26,64,.15);animation:drop 1.1s .25s cubic-bezier(.6,0,.4,1) forwards;z-index:1}
+.box .paper:before{content:"";position:absolute;left:14px;right:14px;top:22px;height:8px;border-radius:4px;background:var(--line);box-shadow:0 16px 0 var(--line),0 32px 0 var(--line)}
+.box .paper:after{content:"";position:absolute;right:10px;bottom:12px;width:26px;height:26px;border-radius:50%;background:var(--red)}
+.box .front{position:absolute;left:0;right:0;bottom:0;height:96px;background:var(--side);border-radius:10px 10px 14px 14px;z-index:2;display:grid;place-items:center;overflow:hidden}
+.box .front:before{content:"";position:absolute;top:0;left:0;right:0;height:10px;background:repeating-conic-gradient(var(--gold) 0 25%, var(--blue) 0 50%) 0 0/10px 10px}
+.box .slotline{position:absolute;left:40px;right:40px;bottom:94px;height:8px;border-radius:4px;background:var(--ink);z-index:3}
+.box .tickmark{width:44px;height:44px;color:var(--gold);opacity:0;animation:pop .4s 1.3s forwards}
+@keyframes drop{0%{transform:translateY(-10px)}100%{transform:translateY(110px)}}
+@keyframes pop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+
+/* ── Gate ─────────────────────────── */
+.gate{max-width:440px;margin:6vh auto 0;padding:34px;text-align:center}
+.gate img{width:80px;height:92px;object-fit:contain}
+.gate h2{font-size:24px;font-weight:800;margin-top:14px;text-transform:uppercase}
+.gate p{color:var(--muted);margin:8px 0 22px}
+.gate .field{text-align:center;font-size:20px;letter-spacing:.1em}
+.gate .btn{width:100%;margin-top:14px}
+
+/* ── Results ─────────────────────────── */
+.sec-h{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap;margin-bottom:18px}
+.sec-h h2{font-weight:800;font-size:clamp(24px,3vw,32px);text-transform:uppercase}
+.sec-h p{margin:4px 0 0;color:var(--muted)}
+.inline{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:22px}
+.stat{padding:18px 20px}
+.stat .k{font-size:14px;color:var(--muted);font-weight:700}
+.stat .v{font-family:var(--head);font-size:32px;font-weight:800;line-height:1.1;margin-top:4px}
+.stat .v small{font-size:17px;color:var(--muted);font-weight:700}
+.stat.gold .meter i{background:var(--gold)}
+.res-wrap{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:22px;align-items:start}
+.board{padding:10px 0}
+.row{display:grid;grid-template-columns:44px 48px minmax(0,1fr) minmax(90px,30%) 58px;gap:12px;align-items:center;padding:8px 18px}
+.row + .row{border-top:1px solid #EEF1F8}
+.row.lead{background:linear-gradient(90deg,var(--gold-soft),#fff 70%)}
+.row .rk{font-family:var(--head);font-weight:800;font-size:19px;color:var(--navy);text-align:center}
+.row .pic{width:48px;height:48px;border-radius:50%;overflow:hidden;background:#5F76A8}
+.row .pic img{width:100%;height:100%;object-fit:cover;object-position:top}
+.row .pic .ini{font-size:16px}
+.row .who2 b{display:block;font-size:16px;line-height:1.2}
+.row .who2 span{font-size:13px;color:var(--muted)}
+.row .vb{height:10px;border-radius:99px;background:#EEF1F8;overflow:hidden;display:flex}
+.row .vb i{display:block;height:100%;background:var(--navy)}
+.row .vb i.s{background:var(--gold)}
+.row .vt{font-family:var(--head);font-weight:800;font-size:21px;text-align:right}
+.cut{display:flex;align-items:center;gap:12px;padding:12px 18px;color:var(--red);font-weight:700;font-size:14px}
+.cut:before,.cut:after{content:"";flex:1;border-top:2px dashed currentColor;opacity:.5}
+.legend{display:flex;gap:16px;font-size:13px;color:var(--muted);padding:6px 18px 10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;background:var(--navy);margin-right:6px;vertical-align:-1px}
+.legend i.s{background:var(--gold)}
+.sidecard{padding:20px}
+.sidecard + .sidecard{margin-top:16px}
+.sidecard h3{font-size:18px;font-weight:800;margin-bottom:12px}
+.crow{display:grid;grid-template-columns:52px 1fr 60px;gap:10px;align-items:center;font-size:14px;margin:9px 0}
+.crow .meter{margin:0}
+.crow span:last-child{text-align:right;color:var(--muted)}
+.mix{display:flex;height:14px;border-radius:99px;overflow:hidden;margin:6px 0 10px;background:#EEF1F8}
+.mix i{display:block;height:100%}
+.warn{background:var(--bad-soft);color:var(--bad);border-radius:10px;padding:12px 16px;font-weight:700;margin:0 18px 10px;font-size:15px}
+.small-note{font-size:13px;color:var(--muted)}
+.more{display:block;margin:6px auto 12px}
+
+/* ── Roll ─────────────────────────── */
+.rollbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.rollbar .field{width:auto}
+.rollbar .search{flex:1 1 240px;max-width:360px}
+table.roll{width:100%;border-collapse:collapse;font-size:15px}
+.roll th{text-align:left;font-size:13px;color:var(--muted);font-weight:700;padding:12px 14px;border-bottom:2px solid var(--line);position:sticky;top:0;background:#fff}
+.roll td{padding:10px 14px;border-bottom:1px solid #EEF1F8}
+.roll tr:hover td{background:#F8FAFF}
+.code{font-family:var(--head);font-weight:800;font-size:17px;letter-spacing:.12em}
+.code.blur{filter:blur(6px);user-select:none}
+.tag{display:inline-block;border-radius:99px;padding:3px 10px;font-size:13px;font-weight:700}
+.tag.yes{background:var(--ok-soft);color:var(--ok)}
+.tag.no{background:#EEF1F8;color:var(--muted)}
+.tag.staff{background:var(--gold-soft);color:#7A5B00}
+.tablewrap{overflow:auto;max-height:68vh}
+.linkbtn{border:0;background:none;color:var(--navy);font-weight:700;text-decoration:underline;padding:0;font-size:14px}
+
+/* ── Admin & help ─────────────────────────── */
+.admin-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px}
+.acard{padding:24px}
+.acard h3{font-size:19px;font-weight:800}
+.acard p{color:var(--muted);margin:6px 0 16px}
+.switch{display:flex;align-items:center;gap:16px}
+.switch b{font-family:var(--head);font-size:20px;font-weight:800}
+.toggle{width:68px;height:38px;border-radius:99px;border:0;background:#C8CFE3;position:relative;transition:background .2s;flex:0 0 auto}
+.toggle:after{content:"";position:absolute;top:4px;left:4px;width:30px;height:30px;border-radius:50%;background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.2);transition:transform .2s}
+.toggle[aria-checked="true"]{background:var(--ok)}
+.toggle[aria-checked="true"]:after{transform:translateX(30px)}
+.inline .field{width:110px}
+.acard.danger{box-shadow:inset 0 0 0 2px var(--bad-soft), var(--shadow)}
+.helpgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:18px}
+.helpgrid .acard ol,.helpgrid .acard ul{margin:10px 0 0;padding-left:22px;font-size:17px}
+.helpgrid .acard li + li{margin-top:8px}
+
+/* ── Toast & loading ─────────────────────────── */
+.toast{position:fixed;left:calc(50% + var(--sidew) / 2);bottom:36px;transform:translate(-50%,20px);background:var(--ink);color:#fff;padding:12px 20px;border-radius:12px;font-weight:700;opacity:0;pointer-events:none;transition:.25s;z-index:60;max-width:90vw;text-align:center}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.toast.bad{background:var(--bad)}
+.loading{display:grid;place-items:center;padding:80px 0;color:var(--muted)}
+.spin{width:34px;height:34px;border-radius:50%;border:4px solid var(--line);border-top-color:var(--navy);animation:spin .8s linear infinite;margin-bottom:12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── Print: code slips ─────────────────────────── */
+/* A4, 10 mm margins: 3 × 7 slips per page, each class starts on a new page.
+   Cut lines are single dashed lines; nothing relies on background colours,
+   so slips print correctly even with "Background graphics" switched off. */
+#print-area{display:none}
+@media print{
+  @page{size:A4 portrait;margin:10mm}
+  html,body{background:#fff !important}
+  body > *:not(#print-area){display:none !important}
+  #print-area{display:block}
+  .sheet + .sheet{break-before:page}
+  .slips{display:grid;grid-template-columns:repeat(3,63.3mm);grid-auto-rows:39.4mm;border-top:.25mm dashed #8A91AA;border-left:.25mm dashed #8A91AA;width:max-content}
+  .ps{border-right:.25mm dashed #8A91AA;border-bottom:.25mm dashed #8A91AA;padding:3.2mm 4mm 2.8mm;display:flex;flex-direction:column;overflow:hidden;break-inside:avoid;color:#101A40;font-family:var(--body)}
+  .ps-top{display:flex;align-items:center;gap:2.2mm;height:9mm}
+  .ps-top img{width:7.8mm;height:9mm;object-fit:contain;flex:0 0 auto}
+  .ps-top .org{flex:1;min-width:0;line-height:1.15}
+  .ps-top .org b{display:block;font-family:var(--head);font-weight:800;font-size:6.2pt;letter-spacing:.01em;white-space:nowrap}
+  .ps-top .org span{display:block;font-size:7pt;color:#5A6382;white-space:nowrap}
+  .ps-top .cls{flex:0 0 auto;font-family:var(--head);font-weight:800;font-size:7pt;border:.25mm solid #101A40;border-radius:1.2mm;padding:.5mm 1.6mm;white-space:nowrap}
+  .ps-name{margin-top:1.8mm;font-family:var(--head);font-weight:700;font-size:10.5pt;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .ps-name.long{font-size:9pt}
+  .ps-name.xlong{font-size:7.8pt}
+  .ps-code{margin-top:1.6mm;height:10.5mm;border:.35mm solid #1E2C6E;border-radius:2mm;display:flex;align-items:center;justify-content:center;font-family:var(--head);font-weight:800;font-size:20pt;letter-spacing:.24em;padding-left:.24em;line-height:1}
+  .ps-foot{margin-top:auto;font-size:6.6pt;color:#5A6382;text-align:center;white-space:nowrap}
+  /* Teachers: one full page each */
+  .sheet + .tpage, .tpage + .tpage{break-before:page}
+  .tpage{display:flex;justify-content:center;padding-top:18mm}
+  .tcard{width:150mm;border:.45mm solid #1E2C6E;border-radius:4mm;padding:14mm 14mm 12mm;text-align:center;color:#101A40;font-family:var(--body)}
+  .tcard img{width:26mm;height:30mm;object-fit:contain}
+  .t-school{font-family:var(--head);font-weight:800;font-size:17pt;margin-top:5mm;letter-spacing:.02em}
+  .t-title{font-size:12.5pt;color:#5A6382;margin-top:1mm}
+  .t-label{margin-top:11mm;font-size:11.5pt;color:#5A6382}
+  .t-name{font-family:var(--head);font-weight:700;font-size:21pt;margin-top:1mm;line-height:1.2}
+  .t-code{display:inline-block;margin-top:8mm;border:.6mm solid #1E2C6E;border-radius:3mm;padding:5mm 10mm 5mm calc(10mm + .25em);font-family:var(--head);font-weight:800;font-size:42pt;letter-spacing:.25em;line-height:1}
+  .t-steps{text-align:left;margin:11mm auto 0;max-width:118mm;font-size:12pt;line-height:1.45;padding-left:7mm}
+  .t-steps li + li{margin-top:2.5mm}
+  .t-foot{margin-top:9mm;font-size:10.5pt;color:#5A6382}
+}
+
+/* ── Responsive ─────────────────────────── */
+@media (max-width:1180px){
+  .vote{grid-template-columns:1fr}
+  .status{position:static;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+  .status > h2{grid-column:1/-1}
+  .res-wrap{grid-template-columns:1fr}
+}
+@media (max-width:900px){
+  :root{--sidew:0px}
+  .side{position:static;width:auto;flex-direction:column;inset:auto}
+  .brand{padding:12px 16px;gap:12px}
+  .brand .disc{width:52px;height:52px}
+  .brand .disc img{width:36px;height:42px}
+  .brand b{font-size:18px}.brand span{font-size:13px;display:inline}
+  .nav{flex-direction:row;overflow-x:auto;scrollbar-width:none;padding:0 8px 8px}
+  .nav button{width:auto;white-space:nowrap;padding:9px 14px;font-size:15px;border-radius:10px;border-right:0}
+  .nav button svg{width:18px;height:18px}
+  .side-foot{display:none}
+  .content{margin-left:0}
+  .topbar{position:static;height:auto;padding:14px 16px;flex-wrap:wrap}
+  .who{font-size:15px}.avatar{width:40px;height:40px;font-size:15px}
+  .top-right{width:100%;justify-content:space-between;gap:12px}
+  .lang button{padding:6px 11px;font-size:13px}
+  main{padding:18px 14px 120px}
+  .hero{padding:18px;gap:16px;min-height:0}
+  .hero img{width:70px;height:80px}
+  .hero .deco,.hero p{display:none}
+  .hero .txt{margin-right:0}
+  .hero h2{font-size:22px}
+  .alert{font-size:15px;padding:12px 16px}
+  .topbar h1{font-size:18px;white-space:normal}
+  .codebox{gap:8px}
+  .status .help,.status .confirm-card{display:none}
+  .cands{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+  .cand{padding:14px 10px}
+  .cand .ph{width:96px;height:96px}
+  .cand h4{font-size:16px}
+  .cand .btn{font-size:12.5px;padding:10px 6px}
+  .mbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:45;background:var(--side);color:#fff;align-items:center;gap:14px;padding:12px 16px calc(12px + env(safe-area-inset-bottom));box-shadow:0 -6px 20px rgba(16,26,64,.3)}
+  .mbar b{font-family:var(--head);font-size:24px;display:block;line-height:1}
+  .mbar span{font-size:13px;color:#C5CCEA}
+  .mbar .btn{margin-left:auto}
+  .row{grid-template-columns:30px 40px minmax(0,1fr) 46px;padding:8px 12px}
+  .row .vb{display:none}
+  .toast{left:50%;bottom:90px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
+</style>
+</head>
+<body>
+
+<aside class="side" id="side">
+  <div class="brand">
+    <span class="disc"><img id="emb-side" alt=""></span>
+    <div id="brand-name"></div>
+  </div>
+  <nav class="nav" id="nav">
+    <button data-view="vote" aria-current="page">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 3a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm0 10c4.4 0 8 1.8 8 4v3H1v-3c0-2.2 3.6-4 8-4zm8.3-4.7l1.4 1.4-4.2 4.2-2.6-2.6 1.4-1.4 1.2 1.2z"/></svg><span data-t="nav_vote"></span></button>
+    <button data-view="help">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm-1 8v7h2v-7h-2zm0-3v2h2V7h-2z"/></svg><span data-t="nav_help"></span></button>
+    <button data-view="results">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 13h4v8H3zm7-6h4v14h-4zm7-4h4v18h-4z"/></svg><span data-t="nav_results"></span><svg class="lk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></button>
+    <button data-view="roll">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm2 4v2h2V7H6zm4 0v2h8V7h-8zm-4 4v2h2v-2H6zm4 0v2h8v-2h-8zm-4 4v2h2v-2H6zm4 0v2h8v-2h-8z"/></svg><span data-t="nav_roll"></span><svg class="lk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></button>
+    <button data-view="admin">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.4 13a7.5 7.5 0 0 0 0-2l2.1-1.6-2-3.5-2.5 1a7.6 7.6 0 0 0-1.7-1L15 3.3h-4l-.4 2.6a7.6 7.6 0 0 0-1.7 1l-2.5-1-2 3.5L6.6 11a7.5 7.5 0 0 0 0 2l-2.1 1.6 2 3.5 2.5-1c.5.4 1.1.7 1.7 1l.4 2.6h4l.4-2.6c.6-.3 1.2-.6 1.7-1l2.5 1 2-3.5zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg><span data-t="nav_admin"></span><svg class="lk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></button>
+  </nav>
+  <div class="side-foot">
+    <div class="turn">
+      <svg class="ring" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="19" stroke="rgba(255,255,255,.15)"/><circle id="ring-arc" cx="24" cy="24" r="19" stroke="#F6C20F" stroke-linecap="round" stroke-dasharray="0 120"/></svg>
+      <div><b id="ring-n">–</b><span data-t="have_voted"></span></div>
+    </div>
+    <button class="lockbtn" id="lockbtn" hidden data-t="lock_btn"></button>
+    <div style="margin-top:12px;font-size:12px;color:#8F99C7"><span data-t="version"></span> 6</div>
+  </div>
+</aside>
+
+<div class="content">
+  <header class="topbar">
+    <h1 data-t="portal_title"></h1>
+    <div class="top-right">
+      <div class="lang" role="group" aria-label="Language / Taal">
+        <button data-lang="en" lang="en">English</button>
+        <button data-lang="af" lang="af">Afrikaans</button>
+      </div>
+      <div class="who" id="who"></div>
+    </div>
+  </header>
+  <main id="main"><div class="loading"><div class="spin"></div></div></main>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div id="print-area"></div>
+
+<script>
+const EMBLEM = 'data:image/png;base64,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';
+/* ═════════════════════ Basics ═════════════════════ */
+const $ = (s, el = document) => el.querySelector(s);
+const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const CODE_LEN = 5;
+const IDLE_LIMIT_MS = 5 * 60 * 1000;
+
+/* Server calls.
+   Inside Apps Script the page uses google.script.run. On GitHub Pages it sends plain
+   web requests to the Apps Script API with no cookies, so Google sign-in (and having
+   several Google accounts on one phone) never comes into it. */
+const API_URL = 'https://script.google.com/macros/s/AKfycbw5qVDcv103eQmUZA2RbbYguSberuNfuvWOO0kXiWQ7qo2YkC9EOd208HoF9QKarbatrA/exec';
+const VIA_API = /^https:\/\//.test(API_URL) && !(window.google && google.script && google.script.run);
+function netError(kind) { const e = new Error(kind); e.net = kind; return e; }
+function run(fn, ...args) {
+  if (!VIA_API) {
+    return new Promise((resolve, reject) => {
+      google.script.run
+        .withSuccessHandler(resolve)
+        .withFailureHandler(err => reject(err && err.message ? err : new Error(String(err))))[fn](...args);
+    });
+  }
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 45000);
+  return fetch(API_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'text/plain;charset=utf-8' },   // keeps it a "simple" request (no CORS preflight)
+    body: JSON.stringify({ fn, args }),
+    credentials: 'omit', redirect: 'follow', cache: 'no-store', signal: ctrl.signal
+  }).then(res => res.text().then(text => {
+    let data;
+    try { data = JSON.parse(text); } catch (e) { throw netError('server'); }
+    if (!data.ok) throw new Error(data.error || 'Unknown error');
+    return data.result;
+  }), () => { throw netError('network'); })
+    .finally(() => clearTimeout(timer));
+}
+
+/* ═════════════════════ Languages ═════════════════════ */
+const pl = (n, one, many) => n === 1 ? one : many;
+const I18N = {
+  en: {
+    school_upper: 'KATHU PRIMARY SCHOOL', emblem_alt: 'Kathu Primary School emblem',
+    portal_title: '2027 RCL ELECTION PORTAL', election_name: '2027 RCL Election',
+    nav_vote: 'Cast my vote', nav_help: 'Help & rules', nav_results: 'Live results', nav_roll: 'Voter roll & codes', nav_admin: 'Election settings',
+    have_voted: 'have voted', lock_btn: 'Lock official pages', locked: 'Official pages locked', version: 'Portal version',
+    who_voting: 'Voting as:', who_official: 'Signed in:', official: 'Election official', who_station: 'Voting station:', open_word: 'open', closed_word: 'closed', teacher: 'Teacher', teachers: 'Teachers',
+    loading: 'Loading…', loading_election: 'Loading the election…', loading_count: 'Counting the ballots…', loading_roll: 'Loading the voter roll…', loading_admin: 'Loading settings…',
+    load_failed: 'The election didn’t load', try_again: 'Try again',
+    gate_title: 'Election officials', gate_results: 'live results', gate_roll: 'the voter roll and codes', gate_admin: 'the election settings',
+    gate_text: v => `Enter the admin PIN to see ${v.what}.`, pin_label: 'Admin PIN', unlock: 'Unlock', checking: 'Checking…',
+    err_pin: 'That PIN is not correct.', err_nopin: 'No admin PIN is set in the Config sheet.', err_range: 'Choose a number between 1 and 100.', err_reset: 'Type RESET to confirm.',
+    help_title: 'How voting works', help_sub: 'Everything you need to know before you vote for the 2027 RCL.',
+    help_how: 'How to vote', help_how1: 'Type the 5-character code from your voting slip.',
+    help_how2: v => `Tap “Vote for” under each candidate you choose. You can choose up to ${v.max}, or nobody at all.`,
+    help_how3: 'Check your choices, then tap “Cast my vote”.',
+    help_rules: 'The rules', rule1: 'Only the official RCL candidates are on the ballot.', rule2: 'You may submit an empty ballot. It counts as a vote cast for nobody.',
+    rule3: 'Each code works once. After you vote, it can’t be used again.', rule4: 'Your vote is secret. Nobody can see who you chose.', rule5: 'Keep your code to yourself until you vote.',
+    help_need: 'Need help?', help_need1: 'Tapped the wrong person? Tap “Chosen” again to remove them before you confirm.',
+    hero_title: 'Cast your vote: 2027 RCL elections!', hero_sub: 'Choose the candidates you trust to lead Kathu Primary School next year.',
+    alert_open: 'Online voting is open', alert_open2: 'Each voter code works once',
+    alert_closed: 'Voting is closed', alert_closed2: 'This screen opens by itself when voting starts',
+    my_status: 'My status', progress: 'Your progress', step: v => `Step ${v.n}:`, step1: 'Enter your code', step2: 'Choose candidates', step3: 'Confirm',
+    your_choices: 'Your choices', votes_cast: 'Votes cast', remove: 'Remove', vote_for: 'Vote for',
+    help_card: 'Election help', help_card1: v => `Choose up to ${v.max} candidates, or none.`, help_card2: 'Your vote is secret.', help_card3: 'Each code works once.', read_rules: 'Read the rules',
+    confirm_submit: 'Confirm and submit ballot',
+    code_title: 'Enter your voter code', code_sub: 'Your code is printed on your voting slip.', code_label: 'Type the 5 characters on your slip',
+    code_char: v => `Character ${v.i} of ${v.n}`, open_ballot: 'OPEN MY BALLOT', checking_caps: 'CHECKING…',
+    err_closed: 'Voting is closed right now. Ask an election official when it opens.',
+    err_format: 'A voter code has 5 characters. Check your slip and try again.',
+    err_unknown: 'We couldn’t find that code. Check each letter and number on your slip.',
+    err_used: 'This code has already been used to vote. Each code can vote once.',
+    err_network: 'Couldn’t reach the ballot box. Check the internet connection and try again.',
+    err_server: 'The voting server didn’t answer properly. Ask an election official to check that the latest version is deployed.',
+    err_busy: 'The ballot box is busy. Tap “Cast my vote” again.',
+    err_closednow: 'Voting closed before this ballot was cast.',
+    err_invalid: 'That voter code is not valid.',
+    err_nopicks: 'No choices were received.',
+    err_notcand: 'Only the RCL candidates on the ballot can be chosen. Go back and check your choices.',
+    err_toomany: v => `You can choose at most ${v.max} candidates.`,
+    err_dropped: 'Your vote did not go through because the connection dropped. Tap “Cast my vote” again.',
+    idle_msg: 'The last ballot closed after 5 minutes without a tap. That code has not been used and still works.',
+    choose_title: 'Choose your representatives',
+    choose_sub: v => `Hi ${v.name}! There are ${v.n} candidates. Choose up to ${v.max}, then tap “Confirm and submit ballot”. You may also submit an empty ballot.`,
+    search_name: 'Search by name', everyone: 'Everyone', girls: 'Girls', boys: 'Boys', my_choices: 'My choices', cancel_ballot: 'Cancel ballot', all_classes: 'All classes',
+    class_x: v => `Class ${v.c}`, n_cands: v => `${v.n} ${pl(v.n, 'candidate', 'candidates')}`,
+    vote_for_caps: v => `VOTE FOR ${v.name}`, chosen_caps: '✓ CHOSEN',
+    none_chosen: 'You haven’t chosen anyone yet. Tap “Vote for” under a candidate.',
+    no_match: 'No candidate matches that search. Try part of the first name or surname.',
+    full_toast: v => `You’ve chosen ${v.max}. Remove someone first to choose another candidate.`,
+    chosen_word: 'chosen', confirm_ballot: 'Confirm ballot',
+    leave_confirm: 'Leave this ballot? The choices will be cleared and the code can still be used.',
+    cancel_confirm: 'Cancel this ballot? Your choices will be cleared and your code will still work.',
+    review_title: 'Confirm your ballot',
+    review_chose: v => `You chose ${v.n} ${pl(v.n, 'candidate', 'candidates')}.`, review_none: 'You haven’t chosen any candidates.',
+    review_final: 'Once you cast your vote, it can’t be changed.',
+    review_empty: 'This will be an empty ballot: it counts as a vote cast for nobody. Go back if you want to choose candidates.',
+    review_more: v => `You can still choose ${v.n} more. Go back to add more, or cast your vote as it is.`,
+    change_choices: 'Change my choices', cast_caps: 'CAST MY VOTE', cast_empty_caps: 'CAST AN EMPTY BALLOT', casting_caps: 'CASTING YOUR VOTE…',
+    done_title: 'Your vote is in!', done_text: v => `Thank you, ${v.name}. Your ballot is secret: nobody can see who you chose.`,
+    next_voter: 'Next voter', resets_in: v => `This screen resets in ${v.s} s`,
+    res_title: 'Live results', counted_at: v => `Counted at ${v.time}`, refreshing: ', refreshing every 20 seconds',
+    pause_refresh: 'Pause refresh', auto_refresh: 'Refresh every 20 s', count_again: 'Count again', save_results: 'Save results to sheet', saving: 'Saving…',
+    results_saved: 'Results saved to the “Results” sheet',
+    ballots_cast: 'Ballots cast', choices_total: v => `${v.n} choices in total, ${v.e} empty ${pl(v.e, 'ballot', 'ballots')}`,
+    learners_voted: 'Learners voted', teachers_voted: 'Teachers voted', of: 'of', turnout_all: 'Overall turnout',
+    legend_l: 'Learner votes', legend_t: 'Teacher votes', vote_split: v => `${v.l} from learners, ${v.t} from teachers`,
+    tie_warn: v => `Tie at the cut-off: ${v.n} candidates have ${v.v} votes for the last places in the top ${v.max}.`,
+    no_ballots: 'No ballots yet. Results appear here as soon as the first vote is cast.',
+    show_all: v => `Show all ${v.n} candidates`, show_fewer: 'Show fewer', cutoff: v => `Top ${v.max} cut-off`,
+    mix_title: v => `Top ${v.max}: mix`, mix_text: v => `${v.g} girls and ${v.b} boys`, girl: 'girl', boy: 'boy', turnout_class: 'Turnout by class',
+    roll_title: 'Voter roll & codes', roll_sub: v => `${v.l} learners and ${v.t} teachers can vote. Each code works once.`,
+    show_codes: 'Show codes', hide_codes: 'Hide codes', print_slips: 'Print slips for this list',
+    roll_search: 'Search name, ID or code', all_and_teachers: 'All classes and teachers', class_word: 'Class', status_word: 'Status',
+    not_voted: 'Not voted yet', voted: 'Voted', not_yet: 'Not yet', n_shown: v => `${v.n} shown`,
+    th_id: 'ID', th_name: 'Name', th_class: 'Class', th_code: 'Code', th_status: 'Status',
+    new_code: 'New code', new_code_confirm: v => `Give ${v.name} a new code? Their old code (${v.code}) will stop working.`, working: 'Working…',
+    new_code_done: v => `New code made for ${v.name}`, nobody_matches: 'Nobody matches these filters.', nothing_to_print: 'There are no voters in this list to print.',
+    slip_foot: 'Use this code once at the voting station.',
+    tp_for: 'Voter code for', tp_step1: 'Open the RCL election portal.', tp_step2: 'Type this code under “Enter your voter code”.',
+    tp_step3: v => `Choose up to ${v.max} candidates (or none) and confirm your ballot.`, tp_foot: 'This code works once. Keep it private until you have voted.',
+    admin_title: 'Election settings', admin_sub: 'Changes apply to every voting station straight away.',
+    voting: 'Voting', voting_text: 'Open voting when learners are ready at the stations. Closing stops new ballots immediately.',
+    voting_open: 'Voting is open', voting_closed: 'Voting is closed', open_confirm: 'Open voting now?', close_confirm: 'Close voting now? Voters can no longer cast ballots.',
+    opened: 'Voting opened', closed_toast: 'Voting closed',
+    per_ballot: 'Choices per ballot', per_ballot_text: 'The most candidates one voter may choose. Voters may also submit an empty ballot.', save: 'Save',
+    max_saved: v => `Voters can now choose up to ${v.n}`,
+    top_group: 'Top group in the results', top_group_text: 'How many of the highest-voted candidates the results highlight, with a cut-off line after them.',
+    top_saved: v => `Results now highlight the top ${v.n}`,
+    turnout: 'Turnout', turnout_text: v => `${v.lv} of ${v.l} learners and ${v.tv} of ${v.t} teachers have voted. ${v.b} ${pl(v.b, 'ballot is', 'ballots are')} in the box.`,
+    open_sheet: 'Open the database sheet',
+    cands_title: 'Candidates', cands_text: v => `${v.n} learners from the Candidates sheet are on the ballot. Nobody else can be chosen.`,
+    cands_warn: v => `${v.n} ${pl(v.n, 'row', 'rows')} in the Candidates sheet ${pl(v.n, 'doesn’t', 'don’t')} match a learner ID, so ${pl(v.n, 'it is', 'they are')} left off the ballot.`,
+    photos_title: 'Candidate photos', photos_text: 'Upload a photo pack (.json) to replace candidates’ photos. Each photo is matched to a learner by ID.',
+    choose_pack: 'Choose photo pack', pack_ready: v => `${v.f}: ${v.n} photos ready to upload.`, pack_bad: 'That file isn’t a photo pack. Choose the .json photo pack file.',
+    upload_photos: 'Upload photos', uploading: v => `Uploading… ${v.d} of ${v.n}`, photos_saved: v => `${v.n} photos saved.`,
+    photos_skipped: v => ` ${v.n} skipped (no matching learner): ${v.list}`, photos_toast: v => `${v.n} candidate photos updated`,
+    upload_stopped: v => `Upload stopped after ${v.d} photos: ${v.err} Choose “Upload photos” to try again.`,
+    regen_title: 'New codes for everyone who hasn’t voted', regen_text: 'Use this if slips were lost or seen by others. Old codes stop working, so print new slips afterwards.',
+    regen_btn: 'Make new codes', regen_confirm: 'Make new codes for everyone who has not voted yet? Their old codes will stop working.', regen_busy: 'Making codes…',
+    regen_done: v => `${v.n} new codes made. Print slips from the voter roll.`,
+    reset_title: 'Start the election over', reset_text: 'Deletes every ballot and marks everyone as not voted. Codes stay the same. This can’t be undone.',
+    reset_ph: 'Type RESET', reset_btn: 'Delete all ballots', reset_need: 'Type RESET in the box first.', reset_confirm: 'Delete every ballot? This can’t be undone.',
+    deleting: 'Deleting…', reset_done: 'All ballots deleted'
+  },
+  af: {
+    school_upper: 'LAERSKOOL KATHU', emblem_alt: 'Laerskool Kathu se wapen',
+    portal_title: '2027 VLR-VERKIESINGSPORTAAL', election_name: '2027 VLR-verkiesing',
+    nav_vote: 'Bring my stem uit', nav_help: 'Hulp en reëls', nav_results: 'Regstreekse uitslae', nav_roll: 'Kieserslys en kodes', nav_admin: 'Verkiesingsinstellings',
+    have_voted: 'het gestem', lock_btn: 'Sluit amptelike bladsye', locked: 'Amptelike bladsye gesluit', version: 'Portaalweergawe',
+    who_voting: 'Stemmer:', who_official: 'Aangemeld:', official: 'Verkiesingsbeampte', who_station: 'Stemstasie:', open_word: 'oop', closed_word: 'gesluit', teacher: 'Onderwyser', teachers: 'Onderwysers',
+    loading: 'Laai…', loading_election: 'Laai die verkiesing…', loading_count: 'Tel die stembriewe…', loading_roll: 'Laai die kieserslys…', loading_admin: 'Laai instellings…',
+    load_failed: 'Die verkiesing het nie gelaai nie', try_again: 'Probeer weer',
+    gate_title: 'Verkiesingsbeamptes', gate_results: 'die regstreekse uitslae', gate_roll: 'die kieserslys en kodes', gate_admin: 'die verkiesingsinstellings',
+    gate_text: v => `Tik die admin-PIN in om ${v.what} te sien.`, pin_label: 'Admin-PIN', unlock: 'Ontsluit', checking: 'Kontroleer…',
+    err_pin: 'Daardie PIN is nie korrek nie.', err_nopin: 'Daar is geen admin-PIN in die Config-blad nie.', err_range: 'Kies ’n getal tussen 1 en 100.', err_reset: 'Tik RESET om te bevestig.',
+    help_title: 'Hoe stem werk', help_sub: 'Alles wat jy moet weet voordat jy vir die 2027 VLR stem.',
+    help_how: 'Hoe om te stem', help_how1: 'Tik die kode van 5 karakters op jou stembriefie in.',
+    help_how2: v => `Tik op “Stem vir” onder elke kandidaat wat jy kies. Jy kan tot ${v.max} kies, of glad niemand nie.`,
+    help_how3: 'Kontroleer jou keuses en tik dan op “Bring my stem uit”.',
+    help_rules: 'Die reëls', rule1: 'Net die amptelike VLR-kandidate is op die stembrief.', rule2: 'Jy mag ’n leë stembrief indien. Dit tel as ’n stem vir niemand nie.',
+    rule3: 'Elke kode werk net een keer. Nadat jy gestem het, kan dit nie weer gebruik word nie.', rule4: 'Jou stem is geheim. Niemand kan sien wie jy gekies het nie.', rule5: 'Hou jou kode vir jouself totdat jy gestem het.',
+    help_need: 'Hulp nodig?', help_need1: 'Die verkeerde persoon getik? Tik weer op “Gekies” om hulle te verwyder voordat jy bevestig.',
+    hero_title: 'Bring jou stem uit: 2027 VLR-verkiesing!', hero_sub: 'Kies die kandidate wat jy vertrou om Laerskool Kathu volgende jaar te lei.',
+    alert_open: 'Aanlyn stemming is oop', alert_open2: 'Elke stemkode werk net een keer',
+    alert_closed: 'Stemming is gesluit', alert_closed2: 'Hierdie skerm maak vanself oop wanneer stemming begin',
+    my_status: 'My status', progress: 'Jou vordering', step: v => `Stap ${v.n}:`, step1: 'Tik jou kode in', step2: 'Kies kandidate', step3: 'Bevestig',
+    your_choices: 'Jou keuses', votes_cast: 'Stemme uitgebring', remove: 'Verwyder', vote_for: 'Stem vir',
+    help_card: 'Verkiesingshulp', help_card1: v => `Kies tot ${v.max} kandidate, of niemand nie.`, help_card2: 'Jou stem is geheim.', help_card3: 'Elke kode werk net een keer.', read_rules: 'Lees die reëls',
+    confirm_submit: 'Bevestig en dien stembrief in',
+    code_title: 'Tik jou stemkode in', code_sub: 'Jou kode is op jou stembriefie gedruk.', code_label: 'Tik die 5 karakters op jou briefie in',
+    code_char: v => `Karakter ${v.i} van ${v.n}`, open_ballot: 'MAAK MY STEMBRIEF OOP', checking_caps: 'KONTROLEER…',
+    err_closed: 'Stemming is nou gesluit. Vra ’n verkiesingsbeampte wanneer dit oopmaak.',
+    err_format: '’n Stemkode het 5 karakters. Kyk na jou briefie en probeer weer.',
+    err_unknown: 'Ons kon nie daardie kode vind nie. Kyk na elke letter en syfer op jou briefie.',
+    err_used: 'Hierdie kode is reeds gebruik om te stem. Elke kode kan net een keer stem.',
+    err_network: 'Kon nie die stembus bereik nie. Kontroleer die internetverbinding en probeer weer.',
+    err_server: 'Die stembediener het nie reg geantwoord nie. Vra ’n verkiesingsbeampte om seker te maak die nuutste weergawe is ontplooi.',
+    err_busy: 'Die stembus is besig. Tik weer op “Bring my stem uit”.',
+    err_closednow: 'Stemming het gesluit voordat hierdie stembrief ingedien is.',
+    err_invalid: 'Daardie stemkode is nie geldig nie.',
+    err_nopicks: 'Geen keuses is ontvang nie.',
+    err_notcand: 'Net die VLR-kandidate op die stembrief kan gekies word. Gaan terug en kontroleer jou keuses.',
+    err_toomany: v => `Jy kan hoogstens ${v.max} kandidate kies.`,
+    err_dropped: 'Jou stem het nie deurgegaan nie, want die verbinding is verbreek. Tik weer op “Bring my stem uit”.',
+    idle_msg: 'Die vorige stembrief het gesluit ná 5 minute sonder ’n tik. Daardie kode is nie gebruik nie en werk steeds.',
+    choose_title: 'Kies jou verteenwoordigers',
+    choose_sub: v => `Hallo ${v.name}! Daar is ${v.n} kandidate. Kies tot ${v.max} en tik dan op “Bevestig en dien stembrief in”. Jy mag ook ’n leë stembrief indien.`,
+    search_name: 'Soek op naam', everyone: 'Almal', girls: 'Meisies', boys: 'Seuns', my_choices: 'My keuses', cancel_ballot: 'Kanselleer stembrief', all_classes: 'Alle klasse',
+    class_x: v => `Klas ${v.c}`, n_cands: v => `${v.n} ${pl(v.n, 'kandidaat', 'kandidate')}`,
+    vote_for_caps: v => `STEM VIR ${v.name}`, chosen_caps: '✓ GEKIES',
+    none_chosen: 'Jy het nog niemand gekies nie. Tik op “Stem vir” onder ’n kandidaat.',
+    no_match: 'Geen kandidaat pas by daardie soektog nie. Probeer ’n deel van die naam of van.',
+    full_toast: v => `Jy het reeds ${v.max} gekies. Verwyder eers iemand om ’n ander kandidaat te kies.`,
+    chosen_word: 'gekies', confirm_ballot: 'Bevestig stembrief',
+    leave_confirm: 'Verlaat hierdie stembrief? Die keuses word uitgevee en die kode kan steeds gebruik word.',
+    cancel_confirm: 'Kanselleer hierdie stembrief? Jou keuses word uitgevee en jou kode sal steeds werk.',
+    review_title: 'Bevestig jou stembrief',
+    review_chose: v => `Jy het ${v.n} ${pl(v.n, 'kandidaat', 'kandidate')} gekies.`, review_none: 'Jy het geen kandidate gekies nie.',
+    review_final: 'Sodra jy jou stem uitgebring het, kan dit nie verander word nie.',
+    review_empty: 'Dit sal ’n leë stembrief wees: dit tel as ’n stem vir niemand nie. Gaan terug as jy kandidate wil kies.',
+    review_more: v => `Jy kan nog ${v.n} kies. Gaan terug om meer by te voeg, of bring jou stem uit soos dit is.`,
+    change_choices: 'Verander my keuses', cast_caps: 'BRING MY STEM UIT', cast_empty_caps: 'DIEN ’N LEË STEMBRIEF IN', casting_caps: 'JOU STEM WORD UITGEBRING…',
+    done_title: 'Jou stem is in!', done_text: v => `Dankie, ${v.name}. Jou stembrief is geheim: niemand kan sien wie jy gekies het nie.`,
+    next_voter: 'Volgende stemmer', resets_in: v => `Hierdie skerm herstel oor ${v.s} s`,
+    res_title: 'Regstreekse uitslae', counted_at: v => `Getel om ${v.time}`, refreshing: ', verfris elke 20 sekondes',
+    pause_refresh: 'Stop verfris', auto_refresh: 'Verfris elke 20 s', count_again: 'Tel weer', save_results: 'Stoor uitslae in blad', saving: 'Stoor…',
+    results_saved: 'Uitslae gestoor in die “Results”-blad',
+    ballots_cast: 'Stembriewe uitgebring', choices_total: v => `${v.n} keuses in totaal, ${v.e} leë ${pl(v.e, 'stembrief', 'stembriewe')}`,
+    learners_voted: 'Leerders het gestem', teachers_voted: 'Onderwysers het gestem', of: 'van', turnout_all: 'Totale opkoms',
+    legend_l: 'Leerderstemme', legend_t: 'Onderwyserstemme', vote_split: v => `${v.l} van leerders, ${v.t} van onderwysers`,
+    tie_warn: v => `Gelykop by die afsnypunt: ${v.n} kandidate het ${v.v} stemme vir die laaste plekke in die top ${v.max}.`,
+    no_ballots: 'Nog geen stembriewe nie. Uitslae verskyn hier sodra die eerste stem uitgebring is.',
+    show_all: v => `Wys al ${v.n} kandidate`, show_fewer: 'Wys minder', cutoff: v => `Afsnypunt vir die top ${v.max}`,
+    mix_title: v => `Top ${v.max}: samestelling`, mix_text: v => `${v.g} meisies en ${v.b} seuns`, girl: 'meisie', boy: 'seun', turnout_class: 'Opkoms per klas',
+    roll_title: 'Kieserslys en kodes', roll_sub: v => `${v.l} leerders en ${v.t} onderwysers kan stem. Elke kode werk net een keer.`,
+    show_codes: 'Wys kodes', hide_codes: 'Versteek kodes', print_slips: 'Druk briefies vir hierdie lys',
+    roll_search: 'Soek naam, ID of kode', all_and_teachers: 'Alle klasse en onderwysers', class_word: 'Klas', status_word: 'Status',
+    not_voted: 'Nog nie gestem nie', voted: 'Het gestem', not_yet: 'Nog nie', n_shown: v => `${v.n} gewys`,
+    th_id: 'ID', th_name: 'Naam', th_class: 'Klas', th_code: 'Kode', th_status: 'Status',
+    new_code: 'Nuwe kode', new_code_confirm: v => `Gee ${v.name} ’n nuwe kode? Die ou kode (${v.code}) sal ophou werk.`, working: 'Besig…',
+    new_code_done: v => `Nuwe kode gemaak vir ${v.name}`, nobody_matches: 'Niemand pas by hierdie filters nie.', nothing_to_print: 'Daar is geen stemmers in hierdie lys om te druk nie.',
+    slip_foot: 'Gebruik hierdie kode een keer by die stemstasie.',
+    tp_for: 'Stemkode vir', tp_step1: 'Maak die VLR-verkiesingsportaal oop.', tp_step2: 'Tik hierdie kode in onder “Tik jou stemkode in”.',
+    tp_step3: v => `Kies tot ${v.max} kandidate (of niemand nie) en bevestig jou stembrief.`, tp_foot: 'Hierdie kode werk net een keer. Hou dit privaat totdat jy gestem het.',
+    admin_title: 'Verkiesingsinstellings', admin_sub: 'Veranderinge geld dadelik by elke stemstasie.',
+    voting: 'Stemming', voting_text: 'Maak stemming oop wanneer leerders by die stasies gereed is. Sodra jy sluit, kan niemand meer stem nie.',
+    voting_open: 'Stemming is oop', voting_closed: 'Stemming is gesluit', open_confirm: 'Maak stemming nou oop?', close_confirm: 'Sluit stemming nou? Stemmers sal nie meer kan stem nie.',
+    opened: 'Stemming is oopgemaak', closed_toast: 'Stemming is gesluit',
+    per_ballot: 'Keuses per stembrief', per_ballot_text: 'Die meeste kandidate wat een stemmer mag kies. Stemmers mag ook ’n leë stembrief indien.', save: 'Stoor',
+    max_saved: v => `Stemmers kan nou tot ${v.n} kies`,
+    top_group: 'Topgroep in die uitslae', top_group_text: 'Hoeveel van die kandidate met die meeste stemme die uitslae uitlig, met ’n afsnylyn ná hulle.',
+    top_saved: v => `Die uitslae lig nou die top ${v.n} uit`,
+    turnout: 'Opkoms', turnout_text: v => `${v.lv} van ${v.l} leerders en ${v.tv} van ${v.t} onderwysers het gestem. Daar is ${v.b} ${pl(v.b, 'stembrief', 'stembriewe')} in die bus.`,
+    open_sheet: 'Maak die databasisblad oop',
+    cands_title: 'Kandidate', cands_text: v => `${v.n} leerders uit die Candidates-blad is op die stembrief. Niemand anders kan gekies word nie.`,
+    cands_warn: v => `${v.n} ${pl(v.n, 'ry', 'rye')} in die Candidates-blad pas nie by ’n leerder-ID nie en is dus nie op die stembrief nie.`,
+    photos_title: 'Kandidaatfoto’s', photos_text: 'Laai ’n fotopak (.json) op om kandidate se foto’s te vervang. Elke foto word volgens ID by ’n leerder gepas.',
+    choose_pack: 'Kies fotopak', pack_ready: v => `${v.f}: ${v.n} foto’s gereed om op te laai.`, pack_bad: 'Daardie lêer is nie ’n fotopak nie. Kies die .json-fotopaklêer.',
+    upload_photos: 'Laai foto’s op', uploading: v => `Laai op… ${v.d} van ${v.n}`, photos_saved: v => `${v.n} foto’s gestoor.`,
+    photos_skipped: v => ` ${v.n} oorgeslaan (geen ooreenstemmende leerder nie): ${v.list}`, photos_toast: v => `${v.n} kandidaatfoto’s opgedateer`,
+    upload_stopped: v => `Oplaai het ná ${v.d} foto’s gestop: ${v.err} Kies “Laai foto’s op” om weer te probeer.`,
+    regen_title: 'Nuwe kodes vir almal wat nog nie gestem het nie', regen_text: 'Gebruik dit as briefies verlore geraak het of deur ander gesien is. Ou kodes hou op werk, so druk daarna nuwe briefies.',
+    regen_btn: 'Maak nuwe kodes', regen_confirm: 'Maak nuwe kodes vir almal wat nog nie gestem het nie? Hul ou kodes sal ophou werk.', regen_busy: 'Maak kodes…',
+    regen_done: v => `${v.n} nuwe kodes gemaak. Druk briefies vanaf die kieserslys.`,
+    reset_title: 'Begin die verkiesing van voor af', reset_text: 'Vee elke stembrief uit en merk almal as nie gestem nie. Kodes bly dieselfde. Dit kan nie ontdoen word nie.',
+    reset_ph: 'Tik RESET', reset_btn: 'Vee alle stembriewe uit', reset_need: 'Tik eers RESET in die blokkie.', reset_confirm: 'Vee elke stembrief uit? Dit kan nie ontdoen word nie.',
+    deleting: 'Vee uit…', reset_done: 'Alle stembriewe is uitgevee'
+  }
+};
+let LANG = 'en';
+try { const saved = localStorage.getItem('rcl_lang'); if (saved === 'af' || saved === 'en') LANG = saved; } catch (e) {}
+function t(key, v) {
+  const s = (I18N[LANG] && I18N[LANG][key] !== undefined) ? I18N[LANG][key] : I18N.en[key];
+  if (s === undefined) return key;
+  return typeof s === 'function' ? s(v || {}) : s;
+}
+// Messages that come back from the server in English
+const SERVER_ERR = { 'That PIN is not correct.': 'err_pin', 'No AdminPIN is set in the Config sheet.': 'err_nopin', 'Choose a number between 1 and 100.': 'err_range', 'Type RESET to confirm.': 'err_reset' };
+function errText(err) {
+  if (err && err.net) return t(err.net === 'server' ? 'err_server' : 'err_network');
+  const k = SERVER_ERR[(err && err.message) || '']; return k ? t(k) : (err && err.message) || String(err);
+}
+function replyText(r) { return r.reason && I18N.en['err_' + r.reason] !== undefined ? t('err_' + r.reason, { max: r.max }) : r.message; }
+function isPinError(err) { return (err && err.message) === 'That PIN is not correct.'; }
+
+let toastTimer;
+function toast(text, bad) {
+  const el = $('#toast');
+  el.textContent = text;
+  el.className = 'toast show' + (bad ? ' bad' : '');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.className = 'toast' + (bad ? ' bad' : ''), 3200);
+}
+
+const ICON = {
+  tick: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+  search: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>',
+  bell: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 22a2.5 2.5 0 0 0 2.5-2.5h-5A2.5 2.5 0 0 0 12 22zm7-6V11a7 7 0 0 0-5.5-6.8V3a1.5 1.5 0 0 0-3 0v1.2A7 7 0 0 0 5 11v5l-2 2v1h18v-1z"/></svg>',
+  alert: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" style="flex:0 0 auto;margin-top:1px"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>'
+};
+const DECO = `<svg class="deco" viewBox="0 0 300 200" preserveAspectRatio="xMaxYMid slice" aria-hidden="true">
+  <polygon points="150,0 300,0 300,200 70,200" fill="#16245C"/>
+  <polygon points="118,0 134,0 54,200 38,200" fill="#F6C20F"/>
+  <polygon points="190,0 300,0 300,92" fill="#2F3C9E"/>
+  <polygon points="300,60 236,100 300,140" fill="#F6C20F"/>
+  <polygon points="210,200 262,120 278,120 226,200" fill="#F6C20F"/>
+  <polygon points="168,0 176,0 96,200 88,200" fill="#fff" opacity=".9"/>
+</svg>`;
+
+/* ═════════════════════ State ═════════════════════ */
+const S = {
+  boot: null, status: null,
+  view: 'vote',
+  step: 'start',            // start | ballot | review | done
+  cands: null, byId: {}, classes: [],
+  code: '', voter: null, max: 34, picks: [],
+  f: { q: '', cls: 'all', g: 'all', mine: false },
+  pin: null,
+  results: null, showAll: false, auto: true,
+  roll: null, rf: { q: '', cls: 'all', st: 'all' }, reveal: false,
+  admin: null
+};
+try { S.pin = sessionStorage.getItem('rcl_pin') || null; } catch (e) {}
+
+function initials(c) { return ((c.name || '')[0] || '') + ((c.surname || '')[0] || ''); }
+function face(c) {
+  return c && c.photo ? `<img src="${c.photo}" alt="" loading="lazy">` : `<span class="ini">${esc(initials(c || {}))}</span>`;
+}
+function setCandidates(list) {
+  S.cands = list || [];
+  S.byId = {};
+  const cls = [];
+  S.cands.forEach(c => { S.byId[c.id] = c; if (!cls.includes(c.cls)) cls.push(c.cls); });
+  S.classes = cls;
+}
+const firstName = c => c.name.split(' ')[0];
+const genderWord = g => g === 'Girl' ? t('girl') : g === 'Boy' ? t('boy') : '';
+
+/* ═════════════════════ Shell ═════════════════════ */
+$('#emb-side').src = EMBLEM;
+
+function applyStatic() {
+  document.documentElement.lang = LANG;
+  $$('[data-t]').forEach(el => el.textContent = t(el.dataset.t));
+  $('#emb-side').alt = t('emblem_alt');
+  $('#brand-name').innerHTML = LANG === 'af'
+    ? '<span style="margin:0 0 3px">LAERSKOOL</span><b>KATHU</b>'
+    : '<b>KATHU</b><span>PRIMARY SCHOOL</span>';
+  $('#nav').setAttribute('aria-label', LANG === 'af' ? 'Afdelings' : 'Sections');
+  $$('.lang button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.lang === LANG)));
+  paintWho();
+}
+
+function setLang(lang) {
+  if (lang === LANG) return;
+  LANG = lang;
+  try { localStorage.setItem('rcl_lang', lang); } catch (e) {}
+  applyStatic();
+  // Redraw the current screen in the new language without losing anything
+  if (S.view === 'vote') { if (S.step === 'done') return; if (S.step === 'start') renderVote(); else if (S.step === 'ballot') renderBallot(); else renderReview(); return; }
+  if (S.view === 'help') return renderHelp();
+  if (!S.pin) return renderGate();
+  if (S.view === 'results' && S.results) return renderResults();
+  if (S.view === 'roll' && S.roll) return renderRoll();
+  if (S.view === 'admin' && S.admin) return renderAdmin();
+}
+$$('.lang button').forEach(b => b.addEventListener('click', () => setLang(b.dataset.lang)));
+
+function paintStatus(st) {
+  if (!st) return;
+  S.status = st;
+  $('#ring-n').textContent = `${st.voted} / ${st.total}`;
+  const pct = st.total ? st.voted / st.total : 0;
+  const C = 2 * Math.PI * 19;
+  $('#ring-arc').setAttribute('stroke-dasharray', `${(pct * C).toFixed(1)} ${C.toFixed(1)}`);
+  paintWho();
+}
+
+function paintWho() {
+  let h;
+  if (S.voter && (S.step === 'ballot' || S.step === 'review')) {
+    h = `<span>${t('who_voting')} <b>${esc(S.voter.first)} (${esc(S.voter.staff ? t('teacher') : S.voter.cls)})</b></span><span class="avatar">${esc((S.voter.first || '?')[0])}</span>`;
+  } else if (S.pin) {
+    h = `<span>${t('who_official')} <b>${t('official')}</b></span><span class="avatar">${LANG === 'af' ? 'VB' : 'EO'}</span>`;
+  } else {
+    const open = S.status && S.status.pollsOpen;
+    h = `<span>${t('who_station')} <b>${open ? t('open_word') : t('closed_word')}</b></span><span class="avatar off"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 2c-4 0-8 2-8 5v1h16v-1c0-3-4-5-8-5z"/></svg></span>`;
+  }
+  $('#who').innerHTML = h;
+}
+
+setInterval(() => {
+  if (S.view === 'vote' && S.step !== 'start') return; // don't disturb a voter
+  run('getStatus').then(st => {
+    const changed = !S.status || st.pollsOpen !== S.status.pollsOpen;
+    paintStatus(st);
+    if (changed && S.view === 'vote' && S.step === 'start') renderVote();
+  }).catch(() => {});
+}, 30000);
+
+$$('.nav button').forEach(b => b.addEventListener('click', () => go(b.dataset.view)));
+$('#lockbtn').addEventListener('click', () => { lockOfficial(); toast(t('locked')); });
+
+function lockOfficial() {
+  S.pin = null; S.results = null; S.roll = null; S.admin = null;
+  try { sessionStorage.removeItem('rcl_pin'); } catch (e) {}
+  $('#lockbtn').hidden = true;
+  paintWho();
+  if (S.view !== 'vote' && S.view !== 'help') render();
+}
+
+function go(view) {
+  if (S.view === 'vote' && (S.step === 'ballot' || S.step === 'review') && view !== 'vote') {
+    if (!confirm(t('leave_confirm'))) return;
+    resetVoter();
+  }
+  S.view = view;
+  $$('.nav button').forEach(b => b.dataset.view === view ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
+  render();
+  window.scrollTo(0, 0);
+}
+
+function render() {
+  stopAuto();
+  removeMbar();
+  if (S.view === 'vote') return renderVote();
+  if (S.view === 'help') return renderHelp();
+  if (!S.pin) return renderGate();
+  if (S.view === 'results') return loadResults();
+  if (S.view === 'roll') return loadRoll();
+  if (S.view === 'admin') return loadAdmin();
+}
+
+function loading(text) {
+  $('#main').innerHTML = `<div class="loading"><div class="spin"></div>${esc(text || t('loading'))}</div>`;
+}
+
+/* ═════════════════════ PIN gate ═════════════════════ */
+function renderGate() {
+  const what = { results: t('gate_results'), roll: t('gate_roll'), admin: t('gate_admin') }[S.view];
+  $('#main').innerHTML = `
+    <form class="gate card" id="gate">
+      <img src="${EMBLEM}" alt="">
+      <h2>${t('gate_title')}</h2>
+      <p>${esc(t('gate_text', { what }))}</p>
+      <label class="sr" for="pin">${t('pin_label')}</label>
+      <input class="field" id="pin" type="password" autocomplete="off" required>
+      <div id="gate-msg"></div>
+      <button class="btn" type="submit">${t('unlock')}</button>
+    </form>`;
+  $('#pin').focus();
+  $('#gate').addEventListener('submit', e => {
+    e.preventDefault();
+    const pin = $('#pin').value.trim();
+    const b = $('#gate button'); b.disabled = true; b.textContent = t('checking');
+    run('adminUnlock', pin).then(() => {
+      S.pin = pin;
+      try { sessionStorage.setItem('rcl_pin', pin); } catch (e) {}
+      $('#lockbtn').hidden = false;
+      paintWho();
+      render();
+    }).catch(err => {
+      b.disabled = false; b.textContent = t('unlock');
+      $('#gate-msg').innerHTML = `<div class="msg bad">${ICON.alert}${esc(errText(err))}</div>`;
+      $('#pin').select();
+    });
+  });
+}
+function pinFailed(err) {
+  if (isPinError(err)) { lockOfficial(); renderGate(); }
+  toast(errText(err), true);
+}
+
+/* ═════════════════════ HELP ═════════════════════ */
+function renderHelp() {
+  const max = S.status ? S.status.maxVotes : 34;
+  $('#main').innerHTML = `
+    <div class="card hero">${DECO}<img src="${EMBLEM}" alt=""><div class="txt"><h2>${t('help_title')}</h2><p>${t('help_sub')}</p></div></div>
+    <div class="helpgrid">
+      <div class="card acard"><h3>${t('help_how')}</h3><ol>
+        <li>${t('help_how1')}</li>
+        <li>${t('help_how2', { max })}</li>
+        <li>${t('help_how3')}</li></ol></div>
+      <div class="card acard"><h3>${t('help_rules')}</h3><ul>
+        <li>${t('rule1')}</li><li>${t('rule2')}</li><li>${t('rule3')}</li><li>${t('rule4')}</li><li>${t('rule5')}</li></ul></div>
+      <div class="card acard"><h3>${t('help_need')}</h3><ul>
+        <li>${t('help_need1')}</li></ul></div>
+    </div>`;
+}
+
+/* ═════════════════════ VOTE ═════════════════════ */
+function resetVoter() {
+  S.step = 'start'; S.code = ''; S.voter = null; S.picks = [];
+  S.f = { q: '', cls: 'all', g: 'all', mine: false };
+  clearIdle();
+  removeMbar();
+  paintWho();
+}
+function removeMbar() { $('.mbar') && $('.mbar').remove(); }
+
+function voteShell(mainHtml, slim) {
+  const open = S.status ? S.status.pollsOpen : true;
+  $('#main').innerHTML = `
+    <div class="vote">
+      <div>
+        <div class="card hero${slim ? ' slim' : ''}">${DECO}<img src="${EMBLEM}" alt="${t('emblem_alt')}"><div class="txt"><h2>${t('hero_title')}</h2>${slim ? '' : `<p>${t('hero_sub')}</p>`}</div></div>
+        <div class="alert${open ? '' : ' closed'}">${ICON.bell}<span>${open ? `<b>${t('alert_open')}</b> &nbsp;•&nbsp; ${t('alert_open2')}` : `<b>${t('alert_closed')}</b> &nbsp;•&nbsp; ${t('alert_closed2')}`}</span></div>
+        <div id="vmain">${mainHtml}</div>
+      </div>
+      <aside class="status" id="vstatus"></aside>
+    </div>`;
+  paintSide();
+}
+
+function paintSide() {
+  const box = $('#vstatus'); if (!box) return;
+  const order = ['start', 'ballot', 'review', 'done'];
+  const at = order.indexOf(S.step);
+  const step = (i, label) => {
+    const cls = at > i || S.step === 'done' ? 'done' : at === i ? 'now' : '';
+    return `<li class="${cls}"><span class="dot">${cls === 'done' ? ICON.tick : ''}</span><span class="lbl"><span>${t('step', { n: i + 1 })}<br>${label}</span>${cls === 'done' ? ICON.tick : ''}</span></li>`;
+  };
+  const st = S.status || { voted: 0, total: 0, maxVotes: 34 };
+  let mid;
+  if (S.step === 'ballot' || S.step === 'review') {
+    let chips = S.picks.map(id => { const c = S.byId[id]; const nm = esc(c.name + ' ' + c.surname); return `<button data-rm="${esc(id)}" title="${t('remove')} ${nm}" aria-label="${t('remove')} ${nm}" ${S.step === 'review' ? 'disabled' : ''}>${face(c)}</button>`; }).join('');
+    for (let k = S.picks.length; k < S.max; k++) chips += '<span class="empty-slot" aria-hidden="true"></span>';
+    mid = `<div class="card"><h3>${t('your_choices')}</h3><div class="bignum">${S.picks.length}<small> / ${S.max}</small></div><div class="chosen" id="chosen">${chips}</div></div>`;
+  } else {
+    const pct = st.total ? Math.round(st.voted / st.total * 100) : 0;
+    mid = `<div class="card"><h3>${t('votes_cast')}</h3><div class="bignum">${st.voted}<small> / ${st.total}</small></div><div class="meter"><i style="width:${pct}%"></i></div></div>`;
+  }
+  box.innerHTML = `
+    <h2>${t('my_status')}</h2>
+    <div class="card"><h3>${t('progress')}</h3><ol class="steps">${step(0, t('step1'))}${step(1, t('step2'))}${step(2, t('step3'))}</ol></div>
+    ${mid}
+    <div class="card help"><h3>${t('help_card')}</h3><ul><li>${t('help_card1', { max: S.voter ? S.max : st.maxVotes })}</li><li>${t('help_card2')}</li><li>${t('help_card3')}</li></ul><button class="link" id="to-help">${t('read_rules')}</button></div>
+    ${S.step === 'ballot' ? `<div class="card confirm-card"><button class="btn block lg" id="confirm">${t('confirm_submit')}</button></div>` : ''}`;
+  $('#to-help').addEventListener('click', () => go('help'));
+  $('#confirm') && $('#confirm').addEventListener('click', toReview);
+  $('#chosen') && $('#chosen').addEventListener('click', e => { const b = e.target.closest('[data-rm]'); if (b) toggle(b.dataset.rm); });
+}
+
+function renderVote() {
+  if (S.step === 'ballot') return renderBallot();
+  if (S.step === 'review') return renderReview();
+  if (S.step === 'done') return;
+  const open = S.status ? S.status.pollsOpen : true;
+  voteShell(`
+    <h3 class="sec-title">${t('code_title')}</h3>
+    <p class="sec-sub">${t('code_sub')}</p>
+    <form class="card codecard" id="codeform" autocomplete="off">
+      <label for="c0">${t('code_label')}</label>
+      <div class="coderow">
+        <div class="codebox" id="codebox">
+          ${Array.from({length: CODE_LEN}, (_, i) => `<input id="c${i}" inputmode="text" maxlength="1" aria-label="${t('code_char', { i: i + 1, n: CODE_LEN })}" ${open ? '' : 'disabled'}>`).join('')}
+        </div>
+        <button class="btn red lg" id="codego" type="submit" disabled>${t('open_ballot')}</button>
+      </div>
+      <div id="code-msg"></div>
+    </form>`);
+  const boxes = $$('#codebox input');
+  const val = () => boxes.map(b => b.value).join('');
+  const sync = () => {
+    boxes.forEach(b => b.classList.toggle('filled', !!b.value));
+    $('#codego').disabled = val().length !== CODE_LEN || !open;
+  };
+  boxes.forEach((b, i) => {
+    b.addEventListener('input', () => {
+      let v = b.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
+      if (v.length > 1) { fill(v, i); return; }
+      b.value = v;
+      if (v && i < CODE_LEN - 1) boxes[i + 1].focus();
+      sync();
+    });
+    b.addEventListener('keydown', e => {
+      if (e.key === 'Backspace' && !b.value && i > 0) { boxes[i - 1].focus(); boxes[i - 1].value = ''; sync(); e.preventDefault(); }
+      if (e.key === 'ArrowLeft' && i > 0) boxes[i - 1].focus();
+      if (e.key === 'ArrowRight' && i < CODE_LEN - 1) boxes[i + 1].focus();
+    });
+    b.addEventListener('paste', e => { e.preventDefault(); fill((e.clipboardData.getData('text') || '').toUpperCase().replace(/[^A-Z0-9]/g, ''), i); });
+    b.addEventListener('focus', () => b.select());
+  });
+  function fill(v, from) {
+    for (let k = 0; k < v.length && from + k < CODE_LEN; k++) boxes[from + k].value = v[k];
+    boxes[Math.min(from + v.length, CODE_LEN - 1)].focus();
+    sync();
+  }
+  if (open) boxes[0].focus();
+  $('#codeform').addEventListener('submit', e => {
+    e.preventDefault();
+    const code = val();
+    if (code.length !== CODE_LEN) return;
+    const btn = $('#codego'); btn.disabled = true; btn.textContent = t('checking_caps');
+    run('checkCode', code, !!S.cands).then(r => {
+      if (!r.ok) {
+        btn.disabled = false; btn.textContent = t('open_ballot');
+        $('#code-msg').innerHTML = `<div class="msg bad">${ICON.alert}<span>${esc(replyText(r))}</span></div>`;
+        $('#codebox').classList.remove('shake'); void $('#codebox').offsetWidth; $('#codebox').classList.add('shake');
+        if (r.reason === 'closed') run('getStatus').then(paintStatus).catch(() => {});
+        return;
+      }
+      if (S.pin) lockOfficial(); // a voter is now at this device
+      if (r.candidates) setCandidates(r.candidates);
+      S.code = code; S.voter = r.voter; S.max = r.maxVotes; S.picks = [];
+      S.step = 'ballot';
+      renderBallot();
+      window.scrollTo(0, 0);
+    }).catch(err => {
+      btn.disabled = false; btn.textContent = t('open_ballot');
+      $('#code-msg').innerHTML = `<div class="msg bad">${ICON.alert}<span>${esc(err && err.net ? errText(err) : t('err_network'))}</span></div>`;
+    });
+  });
+}
+
+/* ── Ballot ── */
+function renderBallot() {
+  const counts = {};
+  S.cands.forEach(c => counts[c.cls] = (counts[c.cls] || 0) + 1);
+  voteShell(`
+    <h3 class="sec-title">${t('choose_title')}</h3>
+    <p class="sec-sub">${esc(t('choose_sub', { name: S.voter.first, n: S.cands.length, max: S.max }))}</p>
+    <div class="toolbar">
+      <label class="search"><span class="sr">${t('search_name')}</span>${ICON.search}<input class="field" id="q" placeholder="${t('search_name')}" value="${esc(S.f.q)}"></label>
+      <div class="chips" role="group">
+        <button class="chip" data-g="all" aria-pressed="${S.f.g === 'all'}">${t('everyone')}</button>
+        <button class="chip" data-g="Girl" aria-pressed="${S.f.g === 'Girl'}">${t('girls')}</button>
+        <button class="chip" data-g="Boy" aria-pressed="${S.f.g === 'Boy'}">${t('boys')}</button>
+        <button class="chip" data-mine="1" aria-pressed="${S.f.mine}">${t('my_choices')}</button>
+      </div>
+      <button class="btn ghost sm" id="cancel" style="margin-left:auto">${t('cancel_ballot')}</button>
+    </div>
+    <div class="chips" role="group" style="margin-top:8px">
+      <button class="chip" data-cls="all" aria-pressed="${S.f.cls === 'all'}">${t('all_classes')}</button>
+      ${S.classes.map(c => `<button class="chip" data-cls="${esc(c)}" aria-pressed="${S.f.cls === c}">${esc(c)}<span class="n">${counts[c]}</span></button>`).join('')}
+    </div>
+    <div id="cands"></div>`, true);
+  paintGrid();
+  buildMbar();
+  $('#q').addEventListener('input', e => { S.f.q = e.target.value; paintGrid(); });
+  $$('[data-cls]').forEach(b => b.addEventListener('click', () => { S.f.cls = b.dataset.cls; S.f.mine = false; syncChips(); paintGrid(); }));
+  $$('[data-g]').forEach(b => b.addEventListener('click', () => { S.f.g = b.dataset.g; S.f.mine = false; syncChips(); paintGrid(); }));
+  $('[data-mine]').addEventListener('click', () => { S.f.mine = !S.f.mine; syncChips(); paintGrid(); });
+  $('#cancel').addEventListener('click', () => {
+    if (S.picks.length && !confirm(t('cancel_confirm'))) return;
+    resetVoter(); renderVote();
+  });
+  $('#cands').addEventListener('click', e => {
+    const b = e.target.closest('[data-pick]');
+    if (b) toggle(b.dataset.pick);
+  });
+  paintWho();
+  armIdle();
+}
+
+function syncChips() {
+  $$('[data-cls]').forEach(b => b.setAttribute('aria-pressed', String(!S.f.mine && S.f.cls === b.dataset.cls)));
+  $$('[data-g]').forEach(b => b.setAttribute('aria-pressed', String(!S.f.mine && S.f.g === b.dataset.g)));
+  $('[data-mine]').setAttribute('aria-pressed', String(S.f.mine));
+}
+
+function fold(s) { return String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+function matches(c) {
+  if (S.f.mine) return S.picks.includes(c.id);
+  if (S.f.cls !== 'all' && c.cls !== S.f.cls) return false;
+  if (S.f.g !== 'all' && c.gender !== S.f.g) return false;
+  const q = fold(S.f.q.trim());
+  if (q && !fold(c.name + ' ' + c.surname).includes(q)) return false;
+  return true;
+}
+
+function pickLabel(c, on) { return on ? t('chosen_caps') : t('vote_for_caps', { name: firstName(c).toUpperCase() }); }
+function cardHtml(c, interactive) {
+  const on = S.picks.includes(c.id);
+  const btn = interactive
+    ? `<button class="btn red" data-pick="${esc(c.id)}" aria-pressed="${on}" aria-label="${on ? t('remove') : t('vote_for')} ${esc(c.name + ' ' + c.surname)}">${esc(pickLabel(c, on))}</button>`
+    : '';
+  return `<div class="cand${on ? ' on' : ''}" data-id="${esc(c.id)}">
+      <span class="tick">${ICON.tick}</span>
+      <span class="ph">${face(c)}</span>
+      <h4>${esc(c.name)} ${esc(c.surname)}</h4>
+      <div class="cl">${esc(t('class_x', { c: c.cls }))}</div>
+      ${btn}
+    </div>`;
+}
+
+function paintGrid() {
+  const list = S.cands.filter(matches);
+  const box = $('#cands');
+  if (!list.length) {
+    box.innerHTML = `<div class="empty">${S.f.mine ? t('none_chosen') : t('no_match')}</div>`;
+    return;
+  }
+  const grouped = S.f.cls === 'all' && !S.f.mine && !S.f.q.trim();
+  if (!grouped) {
+    box.innerHTML = `<div class="cands" style="margin-top:18px">${list.map(c => cardHtml(c, true)).join('')}</div>`;
+  } else {
+    box.innerHTML = S.classes.map(cl => {
+      const g = list.filter(c => c.cls === cl);
+      if (!g.length) return '';
+      return `<div class="group-h"><h4>${esc(t('class_x', { c: cl }))}</h4><span>${t('n_cands', { n: g.length })}</span></div><div class="cands">${g.map(c => cardHtml(c, true)).join('')}</div>`;
+    }).join('');
+  }
+  markFull();
+}
+
+function markFull() {
+  const full = S.picks.length >= S.max;
+  $$('#cands .cand').forEach(el => el.classList.toggle('full', full));
+}
+
+function toggle(id) {
+  armIdle();
+  const i = S.picks.indexOf(id);
+  if (i >= 0) S.picks.splice(i, 1);
+  else {
+    if (S.picks.length >= S.max) { toast(t('full_toast', { max: S.max }), true); return; }
+    S.picks.push(id);
+  }
+  const on = S.picks.includes(id);
+  const c = S.byId[id];
+  $$(`.cand[data-id="${CSS.escape(id)}"]`).forEach(el => {
+    el.classList.toggle('on', on);
+    const b = $('[data-pick]', el);
+    if (b) { b.textContent = pickLabel(c, on); b.setAttribute('aria-pressed', String(on)); b.setAttribute('aria-label', (on ? t('remove') : t('vote_for')) + ' ' + c.name + ' ' + c.surname); }
+  });
+  markFull();
+  paintSide();
+  paintMbar();
+  if (S.f.mine && !on) paintGrid();
+}
+
+function buildMbar() {
+  removeMbar();
+  const m = document.createElement('div');
+  m.className = 'mbar';
+  m.innerHTML = `<div><b id="mb-n">0 / ${S.max}</b><span>${t('chosen_word')}</span></div><button class="btn gold" id="mb-go">${t('confirm_ballot')}</button>`;
+  document.body.appendChild(m);
+  $('#mb-go').addEventListener('click', toReview);
+  paintMbar();
+}
+function paintMbar() {
+  if (!$('#mb-n')) return;
+  $('#mb-n').textContent = `${S.picks.length} / ${S.max}`;
+}
+
+function toReview() {
+  S.step = 'review'; renderReview(); window.scrollTo(0, 0);
+}
+
+/* ── Review ── */
+function castLabel() { return S.picks.length ? t('cast_caps') : t('cast_empty_caps'); }
+function renderReview() {
+  removeMbar();
+  $('#toast').className = 'toast';
+  const n = S.picks.length;
+  voteShell(`
+    <h3 class="sec-title">${t('review_title')}</h3>
+    <p class="sec-sub">${n ? t('review_chose', { n }) : t('review_none')} ${t('review_final')}</p>
+    ${n === 0 ? `<div class="note">${t('review_empty')}</div>`
+      : n < S.max ? `<div class="note">${t('review_more', { n: S.max - n })}</div>` : ''}
+    ${n ? `<div class="cands small">${S.picks.map(id => cardHtml(S.byId[id], false)).join('')}</div>` : ''}
+    <div id="rev-msg"></div>
+    <div class="actions">
+      <button class="btn ghost lg" id="back">${t('change_choices')}</button>
+      <button class="btn red lg" id="cast">${castLabel()}</button>
+    </div>`, true);
+  $('#back').addEventListener('click', () => { S.step = 'ballot'; renderBallot(); });
+  $('#cast').addEventListener('click', cast);
+  paintWho();
+  armIdle();
+}
+
+function cast() {
+  const btn = $('#cast'); btn.disabled = true; btn.textContent = t('casting_caps');
+  $('#back').disabled = true;
+  const reset = msg => {
+    btn.disabled = false; btn.textContent = castLabel(); $('#back').disabled = false;
+    $('#rev-msg').innerHTML = `<div class="msg bad">${ICON.alert}<span>${esc(msg)}</span></div>`;
+  };
+  run('submitBallot', S.code, S.picks.slice()).then(r => {
+    if (!r.ok) return reset(replyText(r));
+    showDone();
+  }).catch(() => reset(t('err_dropped')));
+}
+
+let doneTimer;
+function showDone() {
+  const first = S.voter.first;
+  clearIdle();
+  $('#toast').className = 'toast';
+  S.step = 'done';
+  window.scrollTo(0, 0);
+  voteShell(`
+    <div class="card thanks">
+      <div class="box" aria-hidden="true"><div class="paper"></div><div class="slotline"></div><div class="front"><span class="tickmark">${ICON.tick}</span></div></div>
+      <h2>${t('done_title')}</h2>
+      <p>${esc(t('done_text', { name: first }))}</p>
+      <div class="actions" style="justify-content:center"><button class="btn lg" id="next">${t('next_voter')}</button></div>
+      <p class="small-note" id="cd"></p>
+    </div>`, true);
+  paintWho();
+  let left = 8;
+  const tick = () => { const el = $('#cd'); if (el) el.textContent = t('resets_in', { s: left }); };
+  tick();
+  clearInterval(doneTimer);
+  doneTimer = setInterval(() => { left--; tick(); if (left <= 0) finish(); }, 1000);
+  function finish() { clearInterval(doneTimer); resetVoter(); run('getStatus').then(paintStatus).catch(() => {}); if (S.view === 'vote') renderVote(); }
+  $('#next').addEventListener('click', finish);
+  $('#next').focus();
+}
+
+/* ── Idle guard: an abandoned ballot closes itself ── */
+let idleTimer;
+function armIdle() {
+  clearTimeout(idleTimer);
+  idleTimer = setTimeout(() => {
+    if (S.view === 'vote' && (S.step === 'ballot' || S.step === 'review')) {
+      resetVoter(); renderVote();
+      $('#code-msg').innerHTML = `<div class="msg info">${ICON.alert}<span>${t('idle_msg')}</span></div>`;
+    }
+  }, IDLE_LIMIT_MS);
+}
+function clearIdle() { clearTimeout(idleTimer); }
+['pointerdown', 'keydown', 'scroll'].forEach(ev => document.addEventListener(ev, () => { if (S.step === 'ballot' || S.step === 'review') armIdle(); }, { passive: true }));
+
+/* ═════════════════════ RESULTS ═════════════════════ */
+let autoTimer;
+function stopAuto() { clearInterval(autoTimer); autoTimer = null; }
+
+function loadResults(silent) {
+  if (!silent) loading(t('loading_count'));
+  run('getResults', S.pin, !S.cands).then(r => {
+    if (r.candidates) setCandidates(r.candidates);
+    S.results = r;
+    paintStatus(r.status);
+    if (S.view === 'results') renderResults();
+  }).catch(pinFailed);
+}
+
+function ranked() {
+  const r = S.results;
+  const rows = S.cands.map(c => ({ c, t: r.tally[c.id] || { total: 0, learner: 0, staff: 0 } }));
+  rows.sort((a, b) => b.t.total - a.t.total || a.c.surname.localeCompare(b.c.surname) || a.c.name.localeCompare(b.c.name));
+  let prev = null, rank = 0;
+  rows.forEach((x, i) => { if (x.t.total !== prev) { rank = i + 1; prev = x.t.total; } x.rank = rank; });
+  return rows;
+}
+
+function renderResults() {
+  const r = S.results, st = r.status, max = st.seats || st.maxVotes;
+  const rows = ranked();
+  const top = rows.slice(0, max);
+  const best = Math.max(1, rows[0] ? rows[0].t.total : 1);
+  const tie = rows.length > max && rows[max - 1].t.total === rows[max].t.total && rows[max].t.total > 0;
+  const tied = tie ? rows.filter(x => x.t.total === rows[max - 1].t.total) : [];
+  const girls = top.filter(x => x.c.gender === 'Girl').length, boys = top.filter(x => x.c.gender === 'Boy').length;
+  const pct = (a, b) => b ? Math.round(a / b * 100) : 0;
+  const shown = S.showAll ? rows : rows.slice(0, Math.max(max + 6, 40));
+  let list = '';
+  shown.forEach((x, i) => {
+    const g = genderWord(x.c.gender);
+    list += `<div class="row${i < max ? ' lead' : ''}">
+      <span class="rk">${x.rank}</span>
+      <span class="pic">${face(x.c)}</span>
+      <span class="who2"><b>${esc(x.c.name)} ${esc(x.c.surname)}</b><span>${esc(t('class_x', { c: x.c.cls }))}${g ? ', ' + g : ''}</span></span>
+      <span class="vb" title="${t('vote_split', { l: x.t.learner, t: x.t.staff })}"><i style="width:${x.t.learner / best * 100}%"></i><i class="s" style="width:${x.t.staff / best * 100}%"></i></span>
+      <span class="vt">${x.t.total}</span>
+    </div>`;
+    if (i === max - 1 && rows.length > max) list += `<div class="cut">${t('cutoff', { max })}</div>`;
+  });
+  const time = new Date(r.at).toLocaleTimeString(LANG === 'af' ? 'af-ZA' : 'en-ZA', {hour: '2-digit', minute: '2-digit', second: '2-digit'});
+  $('#main').innerHTML = `
+    <div class="sec-h">
+      <div><h2>${t('res_title')}</h2><p class="small-note">${t('counted_at', { time })}${S.auto ? t('refreshing') : ''}</p></div>
+      <div class="inline">
+        <button class="btn ghost sm" id="auto">${S.auto ? t('pause_refresh') : t('auto_refresh')}</button>
+        <button class="btn sm" id="refresh">${t('count_again')}</button>
+        <button class="btn gold sm" id="export">${t('save_results')}</button>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat card"><div class="k">${t('ballots_cast')}</div><div class="v">${r.ballots}</div><div class="small-note">${t('choices_total', { n: r.picksCast, e: r.blankBallots || 0 })}</div></div>
+      <div class="stat card"><div class="k">${t('learners_voted')}</div><div class="v">${st.learnersVoted} <small>${t('of')} ${st.learners}</small></div><div class="meter"><i style="width:${pct(st.learnersVoted, st.learners)}%"></i></div></div>
+      <div class="stat card gold"><div class="k">${t('teachers_voted')}</div><div class="v">${st.staffVoted} <small>${t('of')} ${st.staff}</small></div><div class="meter"><i style="width:${pct(st.staffVoted, st.staff)}%"></i></div></div>
+      <div class="stat card"><div class="k">${t('turnout_all')}</div><div class="v">${pct(st.voted, st.total)}%</div><div class="meter"><i style="width:${pct(st.voted, st.total)}%"></i></div></div>
+    </div>
+    <div class="res-wrap">
+      <div class="card board">
+        <div class="legend"><span><i></i>${t('legend_l')}</span><span><i class="s"></i>${t('legend_t')}</span></div>
+        ${tie ? `<div class="warn">${t('tie_warn', { n: tied.length, v: rows[max - 1].t.total, max })}</div>` : ''}
+        ${r.ballots ? list : `<div class="empty">${t('no_ballots')}</div>`}
+        ${r.ballots && rows.length > shown.length ? `<button class="btn ghost sm more" id="all">${t('show_all', { n: rows.length })}</button>` : ''}
+        ${r.ballots && S.showAll ? `<button class="btn ghost sm more" id="less">${t('show_fewer')}</button>` : ''}
+      </div>
+      <div>
+        <div class="card sidecard">
+          <h3>${t('mix_title', { max })}</h3>
+          <div class="mix"><i style="width:${pct(girls, top.length)}%;background:var(--navy)"></i><i style="width:${pct(boys, top.length)}%;background:var(--gold)"></i></div>
+          <div class="muted" style="font-size:15px">${t('mix_text', { g: girls, b: boys })}</div>
+        </div>
+        <div class="card sidecard">
+          <h3>${t('turnout_class')}</h3>
+          ${r.classes.map(c => `<div class="crow"><span>${c.cls === 'Staff' ? t('teachers') : esc(c.cls)}</span><span class="meter"><i style="width:${pct(c.voted, c.total)}%"></i></span><span>${c.voted}/${c.total}</span></div>`).join('')}
+        </div>
+      </div>
+    </div>`;
+  $('#refresh').addEventListener('click', () => loadResults(true));
+  $('#auto').addEventListener('click', () => { S.auto = !S.auto; renderResults(); });
+  $('#export').addEventListener('click', e => {
+    const b = e.currentTarget; b.disabled = true; b.textContent = t('saving');
+    run('exportResults', S.pin).then(x => {
+      b.disabled = false; b.textContent = t('save_results');
+      toast(t('results_saved'));
+      window.open(x.url, '_blank');
+    }).catch(err => { b.disabled = false; b.textContent = t('save_results'); pinFailed(err); });
+  });
+  $('#all') && $('#all').addEventListener('click', () => { S.showAll = true; renderResults(); });
+  $('#less') && $('#less').addEventListener('click', () => { S.showAll = false; renderResults(); });
+  stopAuto();
+  if (S.auto) autoTimer = setInterval(() => { if (S.view === 'results' && S.pin) loadResults(true); else stopAuto(); }, 20000);
+}
+
+/* ═════════════════════ VOTER ROLL ═════════════════════ */
+function loadRoll() {
+  loading(t('loading_roll'));
+  run('getRoll', S.pin).then(r => { S.roll = r; paintStatus(r.status); if (S.view === 'roll') renderRoll(); }).catch(pinFailed);
+}
+
+function rollRows() {
+  const q = S.rf.q.trim().toLowerCase();
+  return S.roll.people.filter(p => {
+    if (S.rf.cls !== 'all' && p.cls !== S.rf.cls) return false;
+    if (S.rf.st === 'voted' && !p.voted) return false;
+    if (S.rf.st === 'not' && p.voted) return false;
+    if (q && !(p.name + ' ' + p.surname + ' ' + p.id + ' ' + p.code).toLowerCase().includes(q)) return false;
+    return true;
+  });
+}
+
+function renderRoll() {
+  const people = S.roll.people;
+  const classes = [];
+  people.forEach(p => { if (!classes.includes(p.cls)) classes.push(p.cls); });
+  $('#main').innerHTML = `
+    <div class="sec-h">
+      <div><h2>${esc(t('roll_title'))}</h2><p>${t('roll_sub', { l: people.filter(p => !p.staff).length, t: people.filter(p => p.staff).length })}</p></div>
+      <div class="inline">
+        <button class="btn ghost sm" id="reveal">${S.reveal ? t('hide_codes') : t('show_codes')}</button>
+        <button class="btn gold sm" id="print">${t('print_slips')}</button>
+      </div>
+    </div>
+    <div class="rollbar">
+      <label class="search"><span class="sr">${t('roll_search')}</span>${ICON.search}<input class="field" id="rq" placeholder="${t('roll_search')}" value="${esc(S.rf.q)}"></label>
+      <label class="sr" for="rc">${t('class_word')}</label>
+      <select class="field" id="rc"><option value="all">${t('all_and_teachers')}</option>${classes.map(c => `<option ${S.rf.cls === c ? 'selected' : ''} value="${esc(c)}">${c === 'Staff' ? t('teachers') : esc(t('class_x', { c }))}</option>`).join('')}</select>
+      <label class="sr" for="rs">${t('status_word')}</label>
+      <select class="field" id="rs">
+        <option value="all" ${S.rf.st === 'all' ? 'selected' : ''}>${t('everyone')}</option>
+        <option value="not" ${S.rf.st === 'not' ? 'selected' : ''}>${t('not_voted')}</option>
+        <option value="voted" ${S.rf.st === 'voted' ? 'selected' : ''}>${t('voted')}</option>
+      </select>
+      <span class="muted" id="rcount"></span>
+    </div>
+    <div class="card tablewrap"><table class="roll"><thead><tr><th>${t('th_id')}</th><th>${t('th_name')}</th><th>${t('th_class')}</th><th>${t('th_code')}</th><th>${t('th_status')}</th><th></th></tr></thead><tbody id="rbody"></tbody></table></div>`;
+  paintRoll();
+  $('#rq').addEventListener('input', e => { S.rf.q = e.target.value; paintRoll(); });
+  $('#rc').addEventListener('change', e => { S.rf.cls = e.target.value; paintRoll(); });
+  $('#rs').addEventListener('change', e => { S.rf.st = e.target.value; paintRoll(); });
+  $('#reveal').addEventListener('click', () => { S.reveal = !S.reveal; renderRoll(); });
+  $('#print').addEventListener('click', () => printSlips(rollRows()));
+  $('#rbody').addEventListener('click', e => {
+    const b = e.target.closest('[data-new]');
+    if (!b) return;
+    const p = people.find(x => x.id === b.dataset.new);
+    if (!confirm(t('new_code_confirm', { name: p.name + ' ' + p.surname, code: p.code }))) return;
+    b.disabled = true; b.textContent = t('working');
+    run('regenerateCodes', S.pin, p.id).then(() => { toast(t('new_code_done', { name: p.name })); S.reveal = true; loadRoll(); }).catch(pinFailed);
+  });
+}
+
+function paintRoll() {
+  const rows = rollRows();
+  $('#rcount').textContent = t('n_shown', { n: rows.length });
+  $('#rbody').innerHTML = rows.map(p => `<tr>
+      <td class="muted">${esc(p.id)}</td>
+      <td><b>${esc(p.name)} ${esc(p.surname)}</b></td>
+      <td>${p.staff ? `<span class="tag staff">${t('teacher')}</span>` : esc(p.cls)}</td>
+      <td><span class="code${S.reveal ? '' : ' blur'}">${esc(p.code)}</span></td>
+      <td>${p.voted ? `<span class="tag yes">${t('voted')}</span>` : `<span class="tag no">${t('not_yet')}</span>`}</td>
+      <td>${p.voted ? '' : `<button class="linkbtn" data-new="${esc(p.id)}">${t('new_code')}</button>`}</td>
+    </tr>`).join('') || `<tr><td colspan="6" class="empty">${t('nobody_matches')}</td></tr>`;
+}
+
+/* Learners: 21 slips per A4 page, one class per page.
+   Teachers: one full page each. Printed in the language that is currently selected. */
+function printSlips(rows) {
+  if (!rows.length) { toast(t('nothing_to_print'), true); return; }
+  const learners = rows.filter(p => !p.staff), teachers = rows.filter(p => p.staff);
+  const groups = [];
+  learners.forEach(p => {
+    let g = groups.find(x => x.key === p.cls);
+    if (!g) groups.push(g = { key: p.cls, people: [] });
+    g.people.push(p);
+  });
+  const slip = p => {
+    const name = `${p.name} ${p.surname}`.trim();
+    const size = name.length > 30 ? ' xlong' : name.length > 23 ? ' long' : '';
+    return `<div class="ps">
+      <div class="ps-top"><img src="${EMBLEM}" alt=""><div class="org"><b>${t('school_upper')}</b><span>${t('election_name')}</span></div><span class="cls">${esc(p.cls)}</span></div>
+      <div class="ps-name${size}">${esc(name)}</div>
+      <div class="ps-code">${esc(p.code)}</div>
+      <div class="ps-foot">${t('slip_foot')}</div>
+    </div>`;
+  };
+  const max = S.status ? S.status.maxVotes : 34;
+  const teacherPage = p => `<section class="tpage"><div class="tcard">
+      <img src="${EMBLEM}" alt="">
+      <div class="t-school">${t('school_upper')}</div>
+      <div class="t-title">${t('election_name')}</div>
+      <div class="t-label">${t('tp_for')}</div>
+      <div class="t-name">${esc(p.name)} ${esc(p.surname)}</div>
+      <div class="t-code">${esc(p.code)}</div>
+      <ol class="t-steps"><li>${t('tp_step1')}</li><li>${t('tp_step2')}</li><li>${t('tp_step3', { max })}</li></ol>
+      <div class="t-foot">${t('tp_foot')}</div>
+    </div></section>`;
+  $('#print-area').innerHTML =
+    groups.map(g => `<section class="sheet"><div class="slips">${g.people.map(slip).join('')}</div></section>`).join('') +
+    teachers.map(teacherPage).join('');
+  setTimeout(() => window.print(), 300);
+}
+
+/* ═════════════════════ ADMIN ═════════════════════ */
+function loadAdmin() {
+  loading(t('loading_admin'));
+  run('getAdmin', S.pin).then(a => { S.admin = a; paintStatus(a.status); if (S.view === 'admin') renderAdmin(); }).catch(pinFailed);
+}
+
+function renderAdmin() {
+  const a = S.admin, st = a.status;
+  const bad = a.candidateRows - a.candidates;
+  $('#main').innerHTML = `
+    <div class="sec-h"><div><h2>${t('admin_title')}</h2><p>${t('admin_sub')}</p></div></div>
+    <div class="admin-grid">
+      <div class="card acard">
+        <h3>${t('voting')}</h3>
+        <p>${t('voting_text')}</p>
+        <div class="switch"><button class="toggle" id="polls" role="switch" aria-checked="${st.pollsOpen}" aria-label="${t('voting')}"></button><b>${st.pollsOpen ? t('voting_open') : t('voting_closed')}</b></div>
+      </div>
+      <div class="card acard">
+        <h3>${t('per_ballot')}</h3>
+        <p>${t('per_ballot_text')}</p>
+        <div class="inline"><label class="sr" for="mx">${t('per_ballot')}</label><input class="field" id="mx" type="number" min="1" max="100" value="${st.maxVotes}"><button class="btn sm" id="mxsave">${t('save')}</button></div>
+      </div>
+      <div class="card acard">
+        <h3>${t('top_group')}</h3>
+        <p>${t('top_group_text')}</p>
+        <div class="inline"><label class="sr" for="seats">${t('top_group')}</label><input class="field" id="seats" type="number" min="1" max="100" value="${st.seats}"><button class="btn sm" id="seatsave">${t('save')}</button></div>
+      </div>
+      <div class="card acard">
+        <h3>${t('turnout')}</h3>
+        <p>${t('turnout_text', { lv: st.learnersVoted, l: st.learners, tv: st.staffVoted, t: st.staff, b: a.ballots })}</p>
+        <a class="btn ghost sm" href="${esc(a.sheetUrl)}" target="_blank" rel="noopener">${t('open_sheet')}</a>
+      </div>
+      <div class="card acard">
+        <h3>${t('cands_title')}</h3>
+        <p>${t('cands_text', { n: a.candidates })}</p>
+        ${bad > 0 ? `<div class="msg bad">${ICON.alert}<span>${t('cands_warn', { n: bad })}</span></div>` : ''}
+      </div>
+      <div class="card acard">
+        <h3>${t('photos_title')}</h3>
+        <p>${t('photos_text')}</p>
+        <label class="btn ghost sm" for="ppack" style="cursor:pointer">${t('choose_pack')}</label>
+        <input id="ppack" type="file" accept=".json,application/json" class="sr">
+        <div id="pinfo" class="small-note" style="margin-top:10px"></div>
+        <div class="meter" id="pbar" hidden><i style="width:0%"></i></div>
+        <button class="btn sm" id="pup" hidden style="margin-top:12px">${t('upload_photos')}</button>
+      </div>
+      <div class="card acard">
+        <h3>${t('regen_title')}</h3>
+        <p>${t('regen_text')}</p>
+        <button class="btn sm" id="regen">${t('regen_btn')}</button>
+      </div>
+      <div class="card acard danger">
+        <h3>${t('reset_title')}</h3>
+        <p>${t('reset_text')}</p>
+        <div class="inline"><label class="sr" for="rst">${t('reset_ph')}</label><input class="field" id="rst" placeholder="${t('reset_ph')}" style="width:150px"><button class="btn danger sm" id="reset">${t('reset_btn')}</button></div>
+      </div>
+    </div>`;
+  $('#polls').addEventListener('click', e => {
+    const open = !st.pollsOpen;
+    if (!confirm(open ? t('open_confirm') : t('close_confirm'))) return;
+    e.currentTarget.disabled = true;
+    run('setPollsOpen', S.pin, open).then(s => { paintStatus(s); toast(open ? t('opened') : t('closed_toast')); loadAdmin(); }).catch(pinFailed);
+  });
+  $('#mxsave').addEventListener('click', () => {
+    run('setMaxVotes', S.pin, $('#mx').value).then(s => { paintStatus(s); toast(t('max_saved', { n: s.maxVotes })); loadAdmin(); }).catch(pinFailed);
+  });
+  $('#seatsave').addEventListener('click', () => {
+    run('setSeats', S.pin, $('#seats').value).then(s => { paintStatus(s); toast(t('top_saved', { n: s.seats })); loadAdmin(); }).catch(pinFailed);
+  });
+  let pack = null;
+  $('#ppack').addEventListener('change', e => {
+    const f = e.target.files[0]; if (!f) return;
+    const rd = new FileReader();
+    rd.onload = () => {
+      try {
+        const j = JSON.parse(rd.result);
+        const photos = j.photos || j;
+        pack = Object.keys(photos).filter(id => /^[LT]\d+$/.test(id) && String(photos[id]).indexOf('data:image/') === 0).map(id => ({ id, data: photos[id] }));
+        if (!pack.length) throw new Error('empty');
+        $('#pinfo').textContent = t('pack_ready', { f: f.name, n: pack.length });
+        $('#pup').hidden = false;
+      } catch (err) {
+        pack = null; $('#pup').hidden = true;
+        $('#pinfo').textContent = t('pack_bad');
+      }
+    };
+    rd.readAsText(f);
+  });
+  $('#pup').addEventListener('click', async e => {
+    if (!pack) return;
+    const b = e.currentTarget; b.disabled = true; $('#pbar').hidden = false;
+    let done = 0, saved = 0, skipped = [];
+    try {
+      for (let i = 0; i < pack.length; i += 8) {
+        const r = await run('savePhotos', S.pin, pack.slice(i, i + 8));
+        saved += r.saved; skipped = skipped.concat(r.skipped || []);
+        done = Math.min(pack.length, i + 8);
+        $('#pbar i').style.width = Math.round(done / pack.length * 100) + '%';
+        b.textContent = t('uploading', { d: done, n: pack.length });
+      }
+      S.cands = null; // reload candidates with the new photos next time
+      $('#pinfo').textContent = t('photos_saved', { n: saved }) + (skipped.length ? t('photos_skipped', { n: skipped.length, list: skipped.slice(0, 6).join(', ') + (skipped.length > 6 ? '…' : '') }) : '');
+      b.textContent = t('upload_photos'); b.hidden = true; pack = null;
+      toast(t('photos_toast', { n: saved }));
+    } catch (err) {
+      b.disabled = false; b.textContent = t('upload_photos');
+      $('#pinfo').textContent = t('upload_stopped', { d: done, err: errText(err) });
+      if (isPinError(err)) pinFailed(err);
+    }
+  });
+  $('#regen').addEventListener('click', e => {
+    if (!confirm(t('regen_confirm'))) return;
+    const b = e.currentTarget; b.disabled = true; b.textContent = t('regen_busy');
+    run('regenerateCodes', S.pin, null).then(r => { toast(t('regen_done', { n: r.changed })); loadAdmin(); }).catch(pinFailed);
+  });
+  $('#reset').addEventListener('click', e => {
+    const word = $('#rst').value;
+    if (word.trim().toUpperCase() !== 'RESET') { toast(t('reset_need'), true); return; }
+    if (!confirm(t('reset_confirm'))) return;
+    const b = e.currentTarget; b.disabled = true; b.textContent = t('deleting');
+    run('resetElection', S.pin, word).then(() => { toast(t('reset_done')); loadAdmin(); }).catch(pinFailed);
+  });
+}
+
+/* ═════════════════════ Start ═════════════════════ */
+applyStatic();
+loading(t('loading_election'));
+run('getBootstrap').catch(err => err && err.net ? new Promise(r => setTimeout(r, 1500)).then(() => run('getBootstrap')) : Promise.reject(err)).then(b => {
+  S.boot = b;
+  paintStatus(b.status);
+  if (S.pin) $('#lockbtn').hidden = false;
+  render();
+}).catch(err => {
+  $('#main').innerHTML = `<div class="gate card"><h2>${t('load_failed')}</h2><p>${esc(errText(err))}</p><button class="btn" onclick="location.reload()">${t('try_again')}</button></div>`;
+});
+</script>
+</body>
+</html>
